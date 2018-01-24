@@ -23,7 +23,7 @@ github_username:  peixianli
 
 # Build settings
 markdown: kramdown
-theme: 
+theme: Cayman
 plugins:jekyll-theme-prologue
   - jekyll-feed
 
