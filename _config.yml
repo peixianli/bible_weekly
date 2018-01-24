@@ -23,8 +23,8 @@ github_username:  peixianli
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
+theme: 
+plugins:jekyll-theme-prologue
   - jekyll-feed
 
 # Exclude from processing.
