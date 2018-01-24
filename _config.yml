@@ -24,8 +24,7 @@ github_username:  peixianli
 # Build settings
 markdown: kramdown
 theme: Cayman
-plugins:jekyll-theme-prologue
-  - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
