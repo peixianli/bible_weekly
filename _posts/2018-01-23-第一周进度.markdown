@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "第一周进度"
+date:   2018-01-23 20:35:02 -0800
+categories: weekly schedule
+---
+
 M	22-Jan	創	1.1-2.3	詩	1
 
 T 23-Jan	創	2.4-4.26	詩	2
