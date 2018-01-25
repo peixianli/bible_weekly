@@ -1,4 +1,5 @@
-
+   
+   
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -14,7 +15,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bible Weekly
+title: 「從聖經看屬靈生命」
 email: peixian@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   「從聖經看屬靈生命」導引讀經靈修系列
