@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "第一周导读"
-date:   2018-01-23 20:31:02 -0800
+title:  "第一周灵修材料"
+date:   2018-01-24 20:31:02 -0800
 categories: weekly guide
 ---
 
