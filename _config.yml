@@ -1,4 +1,7 @@
-http# Welcome to Jekyll!
+
+  
+# Welcome to Jekyll!
+
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -13,13 +16,15 @@ http# Welcome to Jekyll!
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bible Weekly
+title: 「從聖經看屬靈生命」
 email: peixian@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Guide you through reading the Bible in 2 years. Updates weekly.
-baseurl: "/bible_weekly" # the subpath of your site, e.g. /blog
-url: "https://peixianli.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  peixianli
+
+  「從聖經看屬靈生命」讀經靈修系列的所有材料由【西雅图证道堂】東區國語堂提供。
+   https://eccseattle.org/
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bibleplan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  bibleplan
 
 # Build settings
 markdown: kramdown
