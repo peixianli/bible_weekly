@@ -28,7 +28,7 @@ categories: weekly guide
 筆記與生活回應:
 
 
-2
+---
 
 第 1 週 第 2 天 人類始祖
 
@@ -53,7 +53,7 @@ categories: weekly guide
 筆記與生活回應:
 
 
-3
+---
 
 第 1 週 第 3 天 賽特家族
 
@@ -78,7 +78,7 @@ categories: weekly guide
 筆記與生活回應:
 
 
-4
+---
 
 第 1 週 第 4 天 洪水滔天
 
@@ -105,7 +105,7 @@ categories: weekly guide
 筆記與生活回應:
 
 
-5
+---
 
 第 1 週 第 5 天 分邦立國
 
@@ -131,7 +131,7 @@ categories: weekly guide
 筆記與生活回應:
 
 
-6
+---
 
 第 1 週 第 6 天 曙光初現
 
@@ -156,7 +156,7 @@ categories: weekly guide
 筆記與生活回應:
 
 
-7
+---
 
 第 1 週 第 7 天 補漏拾遺
 
