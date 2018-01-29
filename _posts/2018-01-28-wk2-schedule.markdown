@@ -18,13 +18,13 @@ categories: weekly schedule
 [創 11.27-32]: https://www.bible.com/zh-TW/bible/46/GEN.11.27-32.CUNP
 [12.1-20]: https://www.bible.com/zh-TW/bible/46/GEN.12.1-20.CUNP
 [創 13]: https://www.bible.com/zh-TW/bible/46/GEN.13.CUNP
-[創 14]: https://www.bible.com/zh-TW/bible/46/GEN.14.CUNP
+[14]: https://www.bible.com/zh-TW/bible/46/GEN.14.CUNP
 [創 15]: https://www.bible.com/zh-TW/bible/46/GEN.15.CUNP
-[創 16]: https://www.bible.com/zh-TW/bible/46/GEN.16.CUNP
+[16]: https://www.bible.com/zh-TW/bible/46/GEN.16.CUNP
 [創 17]: https://www.bible.com/zh-TW/bible/46/GEN.17.CUNP
 [創 18.1-15]: https://www.bible.com/zh-TW/bible/46/GEN.16.1-15.CUNP
 [創 18.16-33]: https://www.bible.com/zh-TW/bible/46/GEN.18.16-33.CUNP
-[創 19]: https://www.bible.com/zh-TW/bible/46/GEN.19.CUNP
+[19]: https://www.bible.com/zh-TW/bible/46/GEN.19.CUNP
 [詩 8]: https://www.bible.com/zh-TW/bible/46/PSA.8.CUNP
 [詩 9]: https://www.bible.com/zh-TW/bible/46/PSA.9.CUNP
 [詩 10]: https://www.bible.com/zh-TW/bible/46/PSA.10.CUNP
