@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "第二週读经向导"
+title:  "第二週讀經向導"
 date:   2018-01-29 20:31:02 -0800
 categories: weekly guide
 permalink: /guide/wk2.html
