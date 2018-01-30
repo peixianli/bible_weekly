@@ -15,9 +15,10 @@ title: {{ site.name }}
   <ul class="posts">
 
     {% for post in site.posts %}
+      {% if post.visible== 1  %}
 
       <li><span>{{ post.date | date: '%B %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-
+      {% endif %}
     {% endfor %}
 
   </ul>
