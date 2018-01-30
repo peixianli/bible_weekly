@@ -3,10 +3,8 @@ layout: post
 title:  "第二周灵修材料"
 date:   2018-01-29 20:31:02 -0800
 categories: weekly guide
-ermalink: /guide/wk2.html
+permalink: /guide/wk2.html
 ---
 
+|[主页](/)|[上周](wk1.html)|[第1天](#day1)|[第2天](#day2)|[第3天](#day3)|[第4天](#day4)|[第5天](#day5)|[第6天](#day6)|[第7天](#day7)
 
-|[主页](/)|[上周](wk1.html)|[第1天](#day1)|[第2天](#day2)|[第3天](#day3)|[第4天](#day4)|[第5天](#day5)|[第6天](#day6)|[第7天](#day7)|[下周](wk3.html)
-
-test
