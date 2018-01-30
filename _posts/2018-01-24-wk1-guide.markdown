@@ -9,6 +9,7 @@ categories: weekly guide
 ---
 
 <div id="day1" ></div>
+
 第 1 週 第 1 天 開天闢地
 -----------------------
 
@@ -34,7 +35,8 @@ categories: weekly guide
 
 ---
 
-<div id="day2" ></div>
+<div id="day2" ></div>  
+
 第 1 週 第 2 天 人類始祖
 -----------------------
 
@@ -59,6 +61,7 @@ categories: weekly guide
 ---
 
 <div id="day3" ></div>
+
 第 1 週 第 3 天 賽特家族
 -----------------------
 
@@ -85,6 +88,7 @@ categories: weekly guide
 ---
 
 <div id="day4" ></div>
+
 第 1 週 第 4 天 洪水滔天
 -----------------------
 
@@ -110,6 +114,7 @@ categories: weekly guide
 ---
 
 <div id="day5" ></div>
+
 第 1 週 第 5 天 分邦立國
 -----------------------
 
@@ -134,6 +139,7 @@ categories: weekly guide
 ---
 
 <div id="day6" ></div>
+
 第 1 週 第 6 天 曙光初現
 -----------------------
 
@@ -158,6 +164,7 @@ categories: weekly guide
 ---
 
 <div id="day7" ></div>
+
 第 1 週 第 7 天 補漏拾遺
 -----------------------
 
