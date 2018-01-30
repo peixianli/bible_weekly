@@ -3,6 +3,7 @@ layout: post
 title:  "第二周读经进度"
 date:   2018-01-28 20:45:02 -0800
 categories: weekly schedule
+visible: 0
 ---
 
 |   日期   |   旧约   |   诗篇   
