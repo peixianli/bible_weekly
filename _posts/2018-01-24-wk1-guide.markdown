@@ -6,7 +6,8 @@ categories: weekly guide
 ---
 
 
-|[主页](/)|[周一](#day1)|[周二](#day2)|[周三](#day3)|[周四](#day4)|[周五](#day5)|[周六](#day6)|[周日](#day7)|
+|[主页](/)|[周一](#day1)|[周二](#day2)|[周三](#day3)|[周四](#day4)|[周五](#day5)|[周六](#day6)|[周日](#day7)
+
 
 <div id="day1" ></div>
 
