@@ -3,6 +3,7 @@ layout: post
 title:  "第一周读经进度"
 date:   2018-01-23 20:35:02 -0800
 categories: weekly schedule
+visible: 0
 ---
 
 |   日期   |   旧约   |   诗篇   
