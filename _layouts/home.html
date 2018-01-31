@@ -17,13 +17,15 @@ title: {{ site.name }}
 
   <ul class="posts">
     
-    {% assign posts = site.posts | where: "hide", !"1" %}
-    {% for post in posts %}
+    {% assign today = {{ post.date | date: '%Y-%m-%d' }} %}
+    {% for post in site.posts %}
         <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-        visible: {{ post.hide }}
+            
+        {% if today == {{ post.date | date: '%Y-%m-%d' }} }
+          {% assign todayContent = poast.content }
+        {% endif %}
     
-        {{ site.time }}
-        {{ post.date | date: '%Y-%m-%d' }}
+        
     {% endfor %}
 
   </ul>
@@ -31,7 +33,7 @@ title: {{ site.name }}
       <td style="display: inline-block; border: none; vertical-align: top; padding: 15px">
         <h1>今日导读</h1>
         {{ site.time | date: '%b %d, %Y' }}
-        {{ post.content }}
+        {{ todayContent }}
       </td>
     </tr>
   </table>
