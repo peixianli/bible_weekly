@@ -24,6 +24,7 @@ title: {{ site.name }}
         {{ today }} == {{ post.date | date: '%Y-%m-%d' }}
         {% if today == {{ post.date | date: '%Y-%m-%d' }} %}
           {% assign todayContent = poast.content %}
+          {{ todayContent }}
         {% endif %}
     
         
