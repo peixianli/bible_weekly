@@ -19,11 +19,7 @@ title: {{ site.name }}
         <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {{ site.time | date: '%Y-%m-%d' }}
         {{ post.date | date: '%Y-%m-%d' }}
-        {% if {{ site.time | date: '%Y-%m-%d' }} == {{ post.date | date: '%Y-%m-%d' }} }
-          {{ post.content }}
-        {% endif %}
-        ---
-        {{ post.content }}
+
     {% endif %}
     {% endfor %}
 
