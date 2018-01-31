@@ -20,9 +20,10 @@ title: {{ site.name }}
     {% assign today = {{ post.date | date: '%Y-%m-%d' }} %}
     {% for post in site.posts %}
         <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-            
+        
+        {{ today }} == {{ post.date | date: '%Y-%m-%d' }}
         {% if today == {{ post.date | date: '%Y-%m-%d' }} %}
-          {% assign todayContent = poast.content %}
+          {% assign todayContent = {{ poast.content }} %}
         {% endif %}
     
         
