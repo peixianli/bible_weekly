@@ -21,7 +21,7 @@ title: {{ site.name }}
         {{ site.time }}
         {{ site.time | date: '%Y-%m-%d' }}
         {{ post.date | date: '%Y-%m-%d' }}
-        {% if {{ post.hide }} == '1' %}
+        {% if post.hide == 1 %}
             {{ post.content }}
         {% endif %}
     {% endfor %}
