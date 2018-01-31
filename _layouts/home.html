@@ -1,4 +1,4 @@
- ---
+---
 
 layout: default
 
@@ -17,6 +17,8 @@ title: {{ site.name }}
     {% for post in site.posts %}
       {% if {{ post.hide }} <=> 1 %}
         <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {{ site.time | date: '%Y-%m-%d' }}
+        {{ post.date | date: '%Y-%m-%d' }}
         {% if {{ site.time | date: '%Y-%m-%d' }} == {{ post.date | date: '%Y-%m-%d' }} }
           {{ post.content }}
         {% endif %}
