@@ -17,7 +17,7 @@ title: {{ site.name }}
 
   <ul class="posts">
     
-    {% assign posts = site.posts | where: 'hide', true %}
+    {% assign posts = site.posts | where: 'hide', 1 %}
     {% for post in posts limit:5 %}
         <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         visible: {{ post.hide }}
