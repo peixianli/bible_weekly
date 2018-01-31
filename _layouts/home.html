@@ -15,13 +15,13 @@ title: {{ site.name }}
   <ul class="posts">
 
     {% for post in site.posts %}
-      {% if {{post.hide}}<=>1 %}
+      {% if {{ post.hide }} <=> 1 %}
         <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% if {{ site.time | date: '%Y-%m-%d' }} == {{ post.date | date: '%Y-%m-%d' }} }
           {{ post.content }}
         {% endif %}
         ---
-        {{post.content}}
+        {{ post.content }}
     {% endif %}
     {% endfor %}
 
