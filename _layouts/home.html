@@ -22,7 +22,7 @@ title: {{ site.name }}
         <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         
         {{ today }} == {{ post.date | date: '%Y-%m-%d' }}
-        {% if today == {{ post.date | date: '%Y-%m-%d' }} %}
+        {% if today == post.date | date: '%Y-%m-%d' %}
           ##Found it##
           {% assign todayContent = post.content %}
           {{ todayContent }}
