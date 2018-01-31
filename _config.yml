@@ -27,14 +27,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/bible_weekly" # the subpath of your site, e.g. /blog
 url: "https://peixianli.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  peixianli
-timezone: America/Seattle
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-    
+timezone: America/New_York
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
