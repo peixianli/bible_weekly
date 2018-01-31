@@ -1,7 +1,7 @@
 
-
-   
+  
 # Welcome to Jekyll!
+
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -19,6 +19,7 @@
 title: 「從聖經看屬靈生命」
 email: peixian@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
+
   「從聖經看屬靈生命」讀經靈修系列的所有材料由【西雅图证道堂】東區國語堂提供。
    <https://eccseattle.org/>
 baseurl: "" # the subpath of your site, e.g. /blog
