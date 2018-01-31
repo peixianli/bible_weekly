@@ -3,6 +3,7 @@ layout: post
 title:  "前言"
 date:   2018-01-22 21:31:02 -0800
 categories: weekly guide
+permalink: /guide/intro.html
 ---
 
 「從聖經看屬靈生命」兩年讀經計劃。 
