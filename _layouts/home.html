@@ -10,7 +10,10 @@ title: {{ site.name }}
 
 <div id="home">
 
-  <h1>Blog Posts</h1>
+  <table style="display: inline-block, border: none">
+    <tr>
+      <td>
+  <h1>文章链接</h1>
 
   <ul class="posts">
 
@@ -27,6 +30,11 @@ title: {{ site.name }}
     {% endfor %}
 
   </ul>
-
+      </td>
+      <td>
+        {{ post.content }}
+      </td>
+    </tr>
+  </table>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>
