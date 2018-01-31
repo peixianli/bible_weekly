@@ -22,7 +22,7 @@ email: peixian@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 
   「從聖經看屬靈生命」讀經靈修系列的所有材料由【西雅图证道堂】東區國語堂提供。
-   https://eccseattle.org/
+   <https://eccseattle.org/>
    
 baseurl: "/bible_weekly" # the subpath of your site, e.g. /blog
 url: "https://peixianli.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -33,7 +33,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-timezone: America/New_York
+timezone: America/Los_Angeles
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
