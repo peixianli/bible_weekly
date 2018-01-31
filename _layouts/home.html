@@ -16,23 +16,21 @@ title: {{ site.name }}
   <h1>文章链接</h1>
 
   <ul class="posts">
-
-    {% for post in site.posts %}
-     {% if post.hide != 1 %}
+    
+    {% assign posts = site.posts | where: 'hide', true %}
+    {% for post in posts limit:5 %}
         <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         visible: {{ post.hide }}
     
         {{ site.time }}
-        {{ post.date | date: '%Y-%m-%d' }}
-        
-            
-      {% endif %}
+        {{ post.date | date: '%Y-%m-%d' }
     {% endfor %}
 
   </ul>
       </td>
       <td style="display: inline-block; border: none; vertical-align: top; padding: 15px">
-        <h1>今日导读 {{ site.time | date: '%Y-%m-%d' }}</h1>
+        <h1>今日导读</h1>
+        {{ site.time | date: '%b %d, %Y' }}
         {{ post.content }}
       </td>
     </tr>
