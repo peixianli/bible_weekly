@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "今日读经内容"
-date:   2018-01-29 20:31:02 -0800
+date:   2018-01-28 20:31:02 -0800
 categories: daily
-permalink: /guide/2018-01-29-content.html
+permalink: /guide/2018-01-28-content.html
 hide: 1
-forDate: 2018-01-29
+forDate: 2018-01-28
 ---
 
 <div id="day1"></div>
