@@ -10,9 +10,9 @@ title: {{ site.name }}
 
 <div id="home">
 
-  <table>
+  <table style="display: inline-block; border: none; vertical-align: top; padding: 15px">
     <tr>
-      <td style="display: inline-block, border: none, vertical-align: top, padding: 15px">
+      <td>
   <h1>文章链接</h1>
 
   <ul class="posts">
@@ -31,7 +31,7 @@ title: {{ site.name }}
 
   </ul>
       </td>
-      <td style="display: inline-block, border: none, vertical-align: top, padding: 15px">
+      <td>
         <h1>今日导读 {{ site.time | date: '%Y-%m-%d' }}</h1>
         {{ post.content }}
       </td>
