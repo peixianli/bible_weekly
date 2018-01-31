@@ -1,4 +1,4 @@
----
+ ---
 
 layout: default
 
@@ -20,7 +20,8 @@ title: {{ site.name }}
         {% if {{ site.time | date: '%Y-%m-%d' }} == {{ post.date | date: '%Y-%m-%d' }} }
           {{ post.content }}
         {% endif %}
-      
+        ---
+        {{post.content}}
     {% endif %}
     {% endfor %}
 
