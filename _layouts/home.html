@@ -1,0 +1,26 @@
+---
+
+layout: default
+
+title: {{ site.name }}
+
+---
+
+
+
+<div id="home">
+
+  <h1>Blog Posts</h1>
+
+  <ul class="posts">
+
+    {% for post in site.posts %}
+
+      <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  
+    {% endfor %}
+
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+</div>
