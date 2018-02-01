@@ -6,21 +6,39 @@ title: {{ site.name }}
 
 ---
 
-
-
 <div id="home">
 
-  <h1>Blog Posts</h1>
+  <h1>最新文章</h1>
 
   <ul class="posts">
 
+    {% assign today = site.time | date: '%Y-%m-%d'  %}
+    
     {% for post in site.posts %}
+      
+      {% if post.categories == "daily" %}
+        
+        {% assign postDate = post.date | date: '%Y-%m-%d'  %}
+        {% if today == postDate %}
+          {% assign todayContent = post.content %}          
+        {% endif %}
 
-      <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-  
+      {% else %}
+        
+        <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      
+      {% endif %}
+    
     {% endfor %}
 
   </ul>
 
+  ---
+  
+  <h1>今日导读</h1>
+  {{ todayContent }}
+  
+  ---
+  
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>
