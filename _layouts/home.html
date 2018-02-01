@@ -21,7 +21,8 @@ title: {{ site.name }}
         
         {% assign postDate = post.date | date: '%Y-%m-%d'  %}
         {% if today == postDate %}
-          {% assign todayPost = post %}          
+          {% assign todayPost = post %} 
+          <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
 
       {% else %}
@@ -36,7 +37,7 @@ title: {{ site.name }}
 
   <hr>
   
-  <h1>今日讀經内容 {{ today }}</h1>
+  <h1>今日讀經内容</h1>
   <h2>{{ todayPost.title }}</h2>
   <p class="meta">{{ todayPost.date | date: '%B %d, %Y' }}</p>
   {{ todayPost.content }}
