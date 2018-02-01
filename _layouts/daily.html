@@ -12,9 +12,9 @@ title: {{ site.name }}
 {{ content }}
 
 {% assign pageDate = page.date | '%Y-%m-%d' %}
-<ul>
 <strong>读经分享</strong>
+<ul>
   {% for post in '/sharing' %}
-    <li>{{ post.date }} {{ post.title }}</li>
+    <li>{{ post.date }} - {{ post.title }}</li>
   {% endfor %}
 </ul>
