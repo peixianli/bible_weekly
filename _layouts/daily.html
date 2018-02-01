@@ -12,7 +12,7 @@ title: {{ site.name }}
 {{ content }}
 
 {{ page.date }}
-{% assign sharings = site.posts | where_exp:"date", "date == page.date" %}
+{% assign sharings = site.posts | where_exp:"date", "date | '%Y-%m-%d' == page.date | '%Y-%m-%d'" %}
 <ul>
   <em>读经分享</em>
   {% for post in sharings %}
