@@ -3,7 +3,7 @@ layout: daily
 title:  "第 2 週 第 4 天 應許後裔"
 date:   2018-02-01
 categories: daily
-permalink: /daily/2018-02-01.html
+permalink: /daily/2018-02-01-daily.html
 ---
 
 **問題：神如何堅固祂對亞伯蘭的應許？**
