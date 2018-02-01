@@ -16,7 +16,7 @@ title: {{ site.name }}
     
     {% for post in site.posts %}
       
-      {% if post.categories == "daily" %}
+      {% if post.categories contains "daily" %}
         
         {% assign postDate = post.date | date: '%Y-%m-%d'  %}
         {% if today == postDate %}
@@ -33,12 +33,12 @@ title: {{ site.name }}
 
   </ul>
 
-  ---
+  <hr>
   
   <h1>今日导读</h1>
   {{ todayContent }}
   
-  ---
+  <hr>
   
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>
