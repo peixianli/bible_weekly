@@ -37,6 +37,8 @@ title: {{ site.name }}
   <hr>
   
   <h1>今日导读</h1>
+  <h2>{{ page.title }}</h2>
+  <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
   {{ todayContent }}
     
 </div>
