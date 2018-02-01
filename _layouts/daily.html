@@ -14,7 +14,7 @@ title: {{ site.name }}
 {% assign pageDate = page.date | '%Y-%m-%d' %}
 {% assign sharings = site.posts | where_exp:"date", "date == pageDate" %}
 <ul>
-  <strong>读经分享</strong>
+<strong>读经分享</strong>
   {% for post in sharings %}
     <li>post.title</li>
   {% endfor %}
