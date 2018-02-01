@@ -9,7 +9,8 @@ title: {{ site.name }}
 <div id="home">
 
   <h1>最新文章</h1>
-
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  
   <ul class="posts">
 
     {% assign today = site.time | date: '%Y-%m-%d'  %}
@@ -37,8 +38,5 @@ title: {{ site.name }}
   
   <h1>今日导读</h1>
   {{ todayContent }}
-  
-  <hr>
-  
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    
 </div>
