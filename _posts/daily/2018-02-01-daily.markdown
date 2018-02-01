@@ -4,7 +4,7 @@ title:  "第 2 週 第 4 天 割禮之約"
 date:   2018-02-01
 categories: daily
 prevDay: "/daily/2018-01-31-daily.html"
-nextDay: ""
+nextDay: "/daily/2018-02-02-daily.html"
 weekly: "/guide/wk2.html"
 permalink: /daily/2018-02-01-daily.html
 ---
