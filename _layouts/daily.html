@@ -12,10 +12,9 @@ title: {{ site.name }}
 {{ content }}
 
 {% assign pageDate = page.date | '%Y-%m-%d' %}
-{% assign sharings = site.posts | where_exp:"date", "date == pageDate" %}
 <ul>
 <strong>读经分享</strong>
-  {% for post in sharings %}
-    <li>post.title</li>
+  {% for post in '/sharing' %}
+    <li>{{ post.date }} {{ post.title }}</li>
   {% endfor %}
 </ul>
