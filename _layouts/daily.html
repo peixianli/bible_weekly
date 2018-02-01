@@ -5,8 +5,14 @@ layout: default
 title: {{ site.name }}
 
 ---
-
-|快速跳到|[《上一日]({{page.pre}})|[本周](page.weekly)|[下一日》](page.next)|
+<table>
+  <tr>
+    <td>快速跳到</td>
+    <td><a href="{{ page.pre }}">《上一日</a></td>
+    <td><a href="{{ page.weekly }}">[本周]</a></td>
+    <td><a href="{{ page.next }}">下一日》</a></td>
+  </tr>
+</table>
 
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
