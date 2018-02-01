@@ -1,9 +1,9 @@
----
+----
 layout: daily
 title:  "第 2 週 第 3 天 應許後裔"
 date:   2018-01-31
 categories: daily
-permalink: /daily/2018-01-31.html
+permalink: /daily/2018-01-31-daily.html
 ---
 
 **問題：神如何再次對亞伯蘭應許後裔？**
