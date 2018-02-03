@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "钱斌：【完全】"
+title:  "讀經分享：【完全】"
 date:   2018-02-01
 categories: sharing
 author: 钱斌
