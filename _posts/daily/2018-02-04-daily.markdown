@@ -18,8 +18,3 @@ permalink: /daily/2018-02-04-daily.html
 **禱告：**
 
 **筆記與回應：**
-
-
-{{ page.date }}
-{{ page.date+1 }}
-{{ page.date-1 }}
