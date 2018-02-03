@@ -6,7 +6,7 @@ categories: daily
 prevDay: "/daily/2018-02-03-daily.html"
 nextDay: ""
 weekly: "/guide/wk2.html"
-permalink: /daily/2018-02-03-daily.html
+permalink: /daily/2018-02-04-daily.html
 ---
 
 **讀經：[詩篇 14【繁体】](https://www.biblegateway.com/passage/?search=ps.14&version=CUVMPT)**
