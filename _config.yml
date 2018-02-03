@@ -19,6 +19,7 @@ title: 「從聖經看屬靈生命」
 email: peixian@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 一个屬靈生命成长的兩年讀經計劃。所有材料均有【西雅图证道堂】东区国语堂提供。
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bibleplan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  bibleplan
