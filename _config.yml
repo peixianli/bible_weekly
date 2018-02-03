@@ -30,7 +30,7 @@ github_username:  peixianli
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-dinky
+theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
 timezone: America/Los_Angeles
