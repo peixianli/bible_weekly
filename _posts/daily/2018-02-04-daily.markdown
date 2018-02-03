@@ -1,7 +1,7 @@
 ---
 layout: daily
 title:  "第 2 週 第 7 天 補漏拾遺 "
-date:   2018-02-03
+date:   2018-02-04
 categories: daily
 prevDay: "/daily/2018-02-03-daily.html"
 nextDay: ""
