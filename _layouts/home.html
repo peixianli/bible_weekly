@@ -45,7 +45,6 @@ title: {{ site.name }}
   {% assign sharings = site.posts | where: "categories", "sharing" %}
   {% assign pageDate = todayPost.date | '%Y-%m-%d' %}
   
-  <strong>读经分享：</strong>
   <ul>
   {% for post in sharings %}
     {% if post.date == pageDate %}
