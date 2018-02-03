@@ -1,6 +1,13 @@
-
-第 2 周 第 7 天 補漏拾遺 [&#8679;](#day6) [&#8686;](#top)
------------------------
+---
+layout: daily
+title:  "第 2 週 第 7 天 補漏拾遺 "
+date:   2018-02-03
+categories: daily
+prevDay: "/daily/2018-02-03-daily.html"
+nextDay: ""
+weekly: "/guide/wk2.html"
+permalink: /daily/2018-02-03-daily.html
+---
 
 **讀經：[詩篇 14【繁体】](https://www.biblegateway.com/passage/?search=ps.14&version=CUVMPT)**
 
