@@ -23,7 +23,6 @@ title: {{ site.name }}
 {% assign pageDate = page.date | '%Y-%m-%d' %}
 {% assign sharings = site.posts | where: "categories", "sharing" %}
 
-<strong>读经分享：</strong>
 <ul>
 {% for post in sharings %}
   {% if post.date == pageDate %}
