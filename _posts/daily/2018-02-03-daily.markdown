@@ -1,0 +1,11 @@
+---
+layout: daily
+title:  "第 2 週 第 6 天 堅固應許"
+date:   2018-02-03
+categories: daily
+prevDay: "/daily/2018-02-02-daily.html"
+nextDay: ""
+weekly: "/guide/wk2.html"
+permalink: /daily/2018-02-03-daily.html
+---
+
