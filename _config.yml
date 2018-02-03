@@ -1,4 +1,5 @@
 
+
 # Welcome to Jekyll!
 
 #
@@ -21,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 -   帮助屬靈生命成长的兩年讀經計劃。所有材料均有【西雅图证道堂】东区国语堂提供。 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bibleplan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-:  bibleplan
+github_username: bibleplan
 
 # Build settings
 markdown: kramdown
