@@ -29,12 +29,15 @@ permalink: /guide/wk3.html
     
   {% elsif day == 7 %}
     [&#8679;](#day6) [&#8686;](#top)
+    
     ---
   
   {% else %}
     [&#8679;](#day{{ day-1 }}) [&#8681;](#day{{ day+1 }})
+    
     ---
   {% endif %}
+  
 -----------------------   
   {{ page.content }}
 
