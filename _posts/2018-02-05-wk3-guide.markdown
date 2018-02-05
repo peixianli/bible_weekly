@@ -17,16 +17,25 @@ permalink: /guide/wk3.html
 ---
 
 {% assign thisWeek = site.posts | where: "weekly", "/guide/wk3.html" | sort: "date" %}
-{% comment %}
+
+
+{% assign day=1 %}
 {% for page in thisWeek %}
 
 ---
-  {{ page.title | link_to: page.permalink }} [&#8679;](#top) [&#8681;](#day2)
------------------------  
+  {{ page.title | link_to: page.permalink }} 
+  {% if day == 1 %}
+    [&#8679;](#top) [&#8681;](#day2)
+  {% elseif day == 7 %}
+    [&#8679;](#day6) [&#8686;](#top)
+  {% else %}
+    [&#8679;](#day{{ day-1 }}) [&#8681;](#day{{ day+1 }})
+  {% endif %}
+-----------------------   
   {{ page.content }}
 
 {% endfor %}
-{% endcomment %}
+
 
 <div id="day1"></div>
 {% assign article = thisWeek[0] %}
