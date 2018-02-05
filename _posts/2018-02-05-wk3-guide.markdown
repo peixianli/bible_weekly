@@ -26,7 +26,7 @@ permalink: /guide/wk3.html
   {{ page.title | link_to: page.permalink }} 
   {% if day == 1 %}
     [&#8679;](#top) [&#8681;](#day2)
-  {% elseif day == 7 %}
+  {% elsif day == 7 %}
     [&#8679;](#day6) [&#8686;](#top)
   {% else %}
     [&#8679;](#day{{ day-1 }}) [&#8681;](#day{{ day+1 }})
