@@ -15,15 +15,17 @@ permalink: /guide/wk3.html
 
 ---
 
+{% assign thisWeek = site.posts | where: "weekly", "/guide/wk3.html" | sort: "date" %}
+
 <div id="day1"></div>
-{% assign article = articles['/daily/2018-02-05-daily'] %}
+{% assign article = thisweek[0] %}
 {{ article.title | link_to: article.url }} [&#8679;](#top) [&#8681;](#day2)
 {{ article.content }}
 
 ---
 
 <div id="day2"></div>
-{% assign article = articles['/daily/2018-02-06-daily'] %}
+{% assign article = thisweek[1] %}
 {{ article.title | link_to: article.url }} [&#8679;](#day1) [&#8681;](#day3)
 {{ article.content }}
 
