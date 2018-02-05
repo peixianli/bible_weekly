@@ -17,8 +17,12 @@ permalink: /guide/wk3.html
 
 {% assign thisWeek = site.posts | where: "weekly", "/guide/wk3.html" | sort: "date" %}
 {% for page in thisWeek %}
-  {{ page.title | link_to: page.url }} [&#8679;](#top) [&#8681;](#day2)
+
+---
+  {{ page.title | link_to: page.permalink }} [&#8679;](#top) [&#8681;](#day2)
+  
   {{ page.content }}
+
 {% endfor %}
 
 <div id="day1"></div>
