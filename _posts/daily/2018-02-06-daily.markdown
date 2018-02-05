@@ -4,7 +4,7 @@ title:  "第 3 週 第 2 天 信心試驗"
 date:   2018-02-06
 categories: daily
 prevDay: "/daily/2018-02-05-daily.html"
-nextDay: 
+nextDay: "/daily/2018-02-07-daily.html"
 weekly: "/guide/wk3.html"
 permalink: /daily/2018-02-06-daily.html
 ---
