@@ -4,7 +4,7 @@ title:  "第 3 週 第 1 天 "
 date:   2018-02-05
 categories: daily
 prevDay: "/daily/2018-02-04-daily.html"
-nextDay: 
+nextDay: "/daily/2018-02-06-daily.html"
 weekly: "/guide/wk3.html"
 permalink: /daily/2018-02-05-daily.html
 ---
