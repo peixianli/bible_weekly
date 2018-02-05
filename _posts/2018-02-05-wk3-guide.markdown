@@ -47,7 +47,7 @@ permalink: /guide/wk3.html
 
 <div id="day2"></div>
 {% assign article = thisWeek[1] %}
-{{ article.title | link_to: article.url }} [&#8679;](#day1) [&#8681;](#day3)
+[{{ article.title }}](article.url) [&#8679;](#day1) [&#8681;](#day3)
 -----------------------
 {{ article.content }}
 
