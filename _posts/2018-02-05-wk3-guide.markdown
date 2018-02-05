@@ -17,6 +17,7 @@ permalink: /guide/wk3.html
 ---
 
 {% assign thisWeek = site.posts | where: "weekly", "/guide/wk3.html" | sort: "date" %}
+{% comment %}
 {% for page in thisWeek %}
 
 ---
@@ -25,10 +26,12 @@ permalink: /guide/wk3.html
   {{ page.content }}
 
 {% endfor %}
+{% endcomment %}
 
 <div id="day1"></div>
 {% assign article = thisWeek[0] %}
 {{ article.title | link_to: article.url }} [&#8679;](#top) [&#8681;](#day2)
+
 {{ article.content }}
 
 ---
@@ -36,6 +39,7 @@ permalink: /guide/wk3.html
 <div id="day2"></div>
 {% assign article = thisWeek[1] %}
 {{ article.title | link_to: article.url }} [&#8679;](#day1) [&#8681;](#day3)
+
 {{ article.content }}
 
 ---
@@ -43,6 +47,7 @@ permalink: /guide/wk3.html
 <div id="day3"></div>
 {% assign article = thisWeek[2] %}
 {{ article.title | link_to: article.url }} [&#8679;](#day2) [&#8681;](#day4)
+
 {{ article.content }}
 
 ---
@@ -50,6 +55,7 @@ permalink: /guide/wk3.html
 <div id="day4"></div>
 {% assign article = thisWeek[3] %}
 {{ article.title | link_to: article.url }} [&#8679;](#day3) [&#8681;](#day5)
+
 {{ article.content }}
 
 ---
@@ -57,6 +63,7 @@ permalink: /guide/wk3.html
 <div id="day5"></div>
 {% assign article = thisWeek[4] %}
 {{ article.title | link_to: article.url }} [&#8679;](#day4) [&#8681;](#day6)
+
 {{ article.content }}
 
 ---
@@ -64,6 +71,7 @@ permalink: /guide/wk3.html
 <div id="day6"></div>
 {% assign article = thisWeek[5] %}
 {{ article.title | link_to: article.url }} [&#8679;](#day5) [&#8681;](#day7)
+
 {{ article.content }}
 
 ---
