@@ -1,4 +1,4 @@
----
+ ---
 layout: post
 title:  "讀經向導：第 3 週"
 date:   2018-02-05
@@ -16,14 +16,48 @@ permalink: /guide/wk3.html
 
 <div id="day1"></div>
 {{ {% assign article = articles['daily/2018-02-05-daily.markdown'] %}
-{{ article.title | link_to: article.url }}
+{{ article.title | link_to: article.url }} [&#8679;](#top) [&#8681;](#day2)
 {{ article.content }}
 
 ---
 
 <div id="day2"></div>
 {{ {% assign article = articles['daily/2018-02-06-daily.markdown'] %}
-{{ article.title | link_to: article.url }}
+{{ article.title | link_to: article.url }} [&#8679;](#day1) [&#8681;](#day3)
 {{ article.content }}
 
 ---
+
+<div id="day3"></div>
+{{ {% assign article = articles['daily/2018-02-07-daily.markdown'] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day2) [&#8681;](#day4)
+{{ article.content }}
+
+---
+
+<div id="day4"></div>
+{{ {% assign article = articles['daily/2018-02-08-daily.markdown'] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day3) [&#8681;](#day5)
+{{ article.content }}
+
+---
+
+<div id="day5"></div>
+{{ {% assign article = articles['daily/2018-02-09-daily.markdown'] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day4) [&#8681;](#day6)
+{{ article.content }}
+
+---
+
+<div id="day6"></div>
+{{ {% assign article = articles['daily/2018-02-10-daily.markdown'] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day5) [&#8681;](#day7)
+{{ article.content }}
+
+---
+
+<div id="day7"></div>
+{{ {% assign article = articles['daily/2018-02-11-daily.markdown'] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day6) [&#8686;](#top)
+{{ article.content }}
+
