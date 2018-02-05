@@ -3,8 +3,8 @@ layout: daily
 title:  "第 2 週 第 4 天 割禮之約"
 date:   2018-02-01
 categories: daily
-prevDay: "2018-01-31-daily.html"
-nextDay: "2018-02-02-daily.html"
+prevDay: "/daily/2018-01-31-daily.html"
+nextDay: "/daily/2018-02-02-daily.html"
 weekly: "/guide/wk2.html"
 permalink: /daily/2018-02-01-daily.html
 ---
