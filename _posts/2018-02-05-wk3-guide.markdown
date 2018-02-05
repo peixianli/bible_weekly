@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "讀經向導：第 3 週"
+title:  "讀經向導：第 3 週-"
 date:   2018-02-05
 categories: weekly guide
 permalink: /guide/wk3.html
@@ -16,16 +16,20 @@ permalink: /guide/wk3.html
 ---
 
 {% assign thisWeek = site.posts | where: "weekly", "/guide/wk3.html" | sort: "date" %}
+{% for page in thisWeek %}
+  {{ page.title | link_to: page.url }} [&#8679;](#top) [&#8681;](#day2)
+  {{ page.content }}
+{% endfor %}
 
 <div id="day1"></div>
-{% assign article = thisweek[0] %}
+{% assign article = thisWeek[0] %}
 {{ article.title | link_to: article.url }} [&#8679;](#top) [&#8681;](#day2)
 {{ article.content }}
 
 ---
 
 <div id="day2"></div>
-{% assign article = thisweek[1] %}
+{% assign article = thisWeek[1] %}
 {{ article.title | link_to: article.url }} [&#8679;](#day1) [&#8681;](#day3)
 {{ article.content }}
 
