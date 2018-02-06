@@ -1,4 +1,11 @@
-
+---
+layout: post
+title:  "讀經分享：【试验】"
+date:   2018-02-06
+categories: sharing
+author: 钱斌
+permalink: /sharing/2018-02-06-sharing.html
+---
 
 ### 2月6日 試驗
 
