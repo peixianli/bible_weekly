@@ -34,7 +34,8 @@ permalink: /guide/wk3.html
   {% endif %}
   
 <div id='{{ 'day' | append: day }}'>{{ link }}</div>
-<h2>{{ page.title | link_to: page.permalink }} {{ link }} </h2> 
+##{{ page.title | link_to: page.permalink }} {{ link }}
+
 {{ page.content }}
 
 ---
