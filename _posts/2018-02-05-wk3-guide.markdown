@@ -31,9 +31,8 @@ permalink: /guide/wk3.html
     {% assign link = '[&#8679;](#day' | append:dayMinus | append:') [&#8681;](#day' | append:dayPlus | append:')' %}    
   {% endif %}
   
-<div id='{{ '#day' | append: day }}'></div>
-{{ page.title | link_to: page.permalink }} {{ link }}  
------------------------  
+<div id='{{ 'day' | append: day }}'></div>
+<h2>{{ page.title | link_to: page.permalink }} {{ link }} </h2>  
 
 {{ page.content }}
 ---
