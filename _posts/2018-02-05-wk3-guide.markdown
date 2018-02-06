@@ -33,7 +33,7 @@ permalink: /guide/wk3.html
     {% assign link = dayMinus | append: dayPlus %}    
   {% endif %}
   
-<div id='{{ 'day' | append: day }}'>{{ link }}</div>
+<div id='{{ 'day' | append: day }}'></div>
 ## {{ page.title | link_to: page.permalink }} {{ link }}
 
 {{ page.content }}
