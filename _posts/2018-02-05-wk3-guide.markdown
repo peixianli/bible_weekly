@@ -28,7 +28,7 @@ permalink: /guide/wk3.html
   {% else %}
     {% assign dayMinus = day | minus:'1' %}
     {% assign dayPlus = day | plus:'1' %}
-    {% assign link = '[&#8679;](#day' | append:dayMinus | append:' [&#8681;](#day' | append:dayPlus)' %}    
+    {% assign link = '[&#8679;](#day' | append:dayMinus | append:') [&#8681;](#day' | append:dayPlus | append:')' %}    
   {% endif %}
   
 <div id='{{ '#day' | append: day }}'></div>
