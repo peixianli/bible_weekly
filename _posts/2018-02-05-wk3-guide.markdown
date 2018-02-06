@@ -41,7 +41,7 @@ permalink: /guide/wk3.html
   {% assign day = day | plus:'1' %}
 {% endfor %}
 
-
+{% comment %}
 <div id="day1"></div>
 {% assign article = thisWeek[0] %}
 {{ article.title | link_to: article.url }} [&#8679;](#top) [&#8681;](#day2)
@@ -96,3 +96,4 @@ permalink: /guide/wk3.html
 -----------------------
 {{ article.content }}
 
+{% endcomment %}
