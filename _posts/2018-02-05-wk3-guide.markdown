@@ -27,12 +27,14 @@ permalink: /guide/wk3.html
     {% assign link = '[&#8679;](#day6) [&#8686;](#top)' %}
   {% else %}
     {% assign dayMinus = day | minus:'1' %}
+    {% assign dayMinus = '[&#8679;](#day' | append:dayMinus | append:') ' %}
     {% assign dayPlus = day | plus:'1' %}
-    {% assign link = '[&#8679;](#day' | append:dayMinus | append:') [&#8681;](#day' | append:dayPlus | append:')' %}    
+    {% assign dayPlus = '[&#8681;](#day' | append:dayPlus | append:')' %}
+    {% assign link = dayMinus | append: dayPlus %}    
   {% endif %}
   
-<div id='{{ 'day' | append: day }}'></div>
-<h2>{{ page.title | link_to: page.permalink }}</h2> {{ link }} 
+<div id='{{ 'day' | append: day }}'>{{ link }}</div>
+<h2>{{ page.title | link_to: page.permalink }} {{ link }} </h2> 
 {{ page.content }}
 
 ---
