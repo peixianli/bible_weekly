@@ -18,7 +18,7 @@ permalink: /guide/wk3.html
 
 {% assign thisWeek = site.posts | where: "weekly", "/guide/wk3.html" | sort: "date" %}
 
-{% comment %}
+
 {% assign day = 1 %}
 {% for page in thisWeek %}
   {% if day == 1 %}
@@ -33,9 +33,9 @@ permalink: /guide/wk3.html
 -----------------------   
   {{ page.content }}
 
-  {% assign day = day + 1 %}
+  {% assign day = day | plus:'1' %}
 {% endfor %}
-{% endcomment %}
+
 
 <div id="day1"></div>
 {% assign article = thisWeek[0] %}
