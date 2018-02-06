@@ -26,10 +26,10 @@ permalink: /guide/wk3.html
   {% elsif day == 7 %}
     {% assign link = '[&#8679;](#day6) [&#8686;](#top)' %}
   {% else %}
-    {% assign link = '[&#8679;](#day' | append:{{ day | minus:'1' }}) '[&#8681;](#day' | append:{{ day | plus:'1' }})' %}    
+    {% assign link = '[&#8679;](#day' | append:{{ day | minus:'1' }}) | append:'[&#8681;](#day' | append:{{ day | plus:'1' }})' %}    
   {% endif %}
   
- <div id={{ '#day' | append: day }}></div>
+ <div id='{{ '#day' | append: day }}'></div>
   {{ page.title | link_to: page.permalink }} {{ link }}  
 -----------------------  
 
