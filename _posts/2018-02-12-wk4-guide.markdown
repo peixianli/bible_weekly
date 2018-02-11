@@ -11,13 +11,13 @@ week: 4
 
 <div id="top"></div>
 
-{% assign lastWeek = page.week | minus:"1" %}
-{% assign nextWeek = page.week | plus:"1" %}
+{% assign lastWeek = page.week | minus:'1' %}
+{% assign nextWeek = page.week | plus:'1' %}
 {% assign lastLink = "wk" | append:{{ lastWeek }} | append:".html" %}
 {% assign nextLink = "wk" | append:{{ nextWeek }} | append:".html" %}
 {% assign filter = "/guide/wk" | append:{{ page.week }} | append:".html" %}
 
-|[《上週]({{ lastLink }})|[主页](/)|下週》({{ nextLink }})|
+|[《上週]({{ lastLink }})|[主页](/)|[下週》]({{ nextLink }})|
 |-----------|
 |[第1天](#day1)|[第2天](#day2)|[第3天](#day3)|[第4天](#day4)|
 |[第5天](#day5)|[第6天](#day6)|[第7天](#day7)|
