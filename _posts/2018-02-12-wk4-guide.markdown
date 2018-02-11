@@ -44,5 +44,7 @@ weekNum: 3
 ## {{ onePage.title | link_to: onePage.permalink }} {{ link }}
 
 {{ onePage.content }}
+---
 
+  {% assign day = day | plus:'1' %}
 {% endfor %}
