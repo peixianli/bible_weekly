@@ -15,7 +15,7 @@ weekNum: 4
 {% assign nextWeek = page.weekNum | plus:'1' %}
 {% assign lastLink = "wk" | append:lastWeek | append:".html" %}
 {% assign nextLink = "wk" | append:nextWeek | append:".html" %}
-{% assign filter = "/guide/wk" | append:{{ page.week }} | append:".html" %}
+{% assign filter = "/guide/wk" | append:page.week | append:".html" %}
 
 |[《上週{{ lastWeek }}]({{ lastLink }})|[主页](/)|[下週{{ nextWeek }}》]({{ nextLink }})|
 |-----------|
