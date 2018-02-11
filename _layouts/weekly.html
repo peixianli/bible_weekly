@@ -21,6 +21,31 @@ title: {{ site.name }}
 |[第1天](#day1)|[第2天](#day2)|[第3天](#day3)|[第4天](#day4)|
 |[第5天](#day5)|[第6天](#day6)|[第7天](#day7)|
 
+
+<table>
+  <thead>
+  <tr>
+    <th><a href="{{ lastLink }}">《上週</a></th>
+    <th><a href="/">主页</a></th>
+    <th><a href="{{ nextLink }}">下週》</a></th>
+    <th></th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#day1">第1天</a></td>
+      <td><a href="#day2">第2天</a></td>
+      <td><a href="#day3">第3天</a></td>
+      <td><a href="#day4">第4天</a></td>
+    </tr>
+    <tr>
+      <td><a href="#day5">第5天</a></td>
+      <td><a href="#day6">第6天</a></td>
+      <td><a href="#day7">第7天</a></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 ---
 
 {% assign thisWeek = site.posts | where: "weekly", filter | sort: "date" %}
