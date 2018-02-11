@@ -23,12 +23,12 @@ weekNum: 4
 |[第5天](#day5)|[第6天](#day6)|[第7天](#day7)|
 
 ---
-{% comment %}
+
 {% assign thisWeek = site.posts | where: {{ filter }} | sort: "date" %}
 
 
 {% assign day = 1 %}
-{% for page in thisWeek %}
+{% for onePage in thisWeek %}
   {% if day == 1 %}
     {% assign link = '[&#8679;](#top) [&#8681;](#day2)' %}    
   {% elsif day == 7 %}
@@ -42,12 +42,12 @@ weekNum: 4
   {% endif %}
   
 <div id='{{ 'day' | append: day }}'></div>
-## {{ page.title | link_to: page.permalink }} {{ link }}
+## {{ onePage.title | link_to: onePage.permalink }} {{ link }}
 
-{{ page.content }}
+{{ onePage.content }}
 
 ---
 
   {% assign day = day | plus:'1' %}
 {% endfor %}
-{% endcomment %}
+
