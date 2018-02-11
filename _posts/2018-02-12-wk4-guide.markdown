@@ -39,7 +39,7 @@ weekNum: 4
 
 ---
 
-{% assign thisWeek = site.posts | where: {{ filter }} | sort: "date" %}
+{% assign thisWeek = site.posts | where: filter | sort: "date" %}
 
 
 {% assign day = 1 %}
