@@ -5,7 +5,7 @@ date:   2018-02-12
 categories: weekly guide
 sticky: yes
 permalink: "/guide/wk4.html"
-weekNum: 4
+weekNum: 3
 ---
 
 <div id="top"></div>
@@ -13,7 +13,7 @@ weekNum: 4
 {% assign lastWeek = page.weekNum | minus:"1" %}
 {% assign nextWeek = page.weekNum | plus:"1" %}
 {% assign lastLink = "wk" | append:lastWeek | append:".html" %}
-{% assign lastLink = "wk" | append:nextWeek | append:".html" %}
+{% assign nextLink = "wk" | append:nextWeek | append:".html" %}
 {% assign filter = "/guide/wk" | append:page.weekNum | append:".html" %}
 
 |[《上週]({{ lastLink }})|[主页](/)|[下週》]({{ nextLink }})|
@@ -23,8 +23,7 @@ weekNum: 4
 
 ---
 
-{{ filter }}
-{% assign thisWeek = site.posts | where: "weekly", lastLink | sort: "date" %}
+{% assign thisWeek = site.posts | where: "weekly", filter | sort: "date" %}
 
 
 {% assign day = 1 %}
