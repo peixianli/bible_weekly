@@ -23,7 +23,7 @@ week: 4
 |[第5天](#day5)|[第6天](#day6)|[第7天](#day7)|
 
 ---
-
+{% comment %}
 {% assign thisWeek = site.posts | where: {{ filter }} | sort: "date" %}
 
 
@@ -50,3 +50,4 @@ week: 4
 
   {% assign day = day | plus:'1' %}
 {% endfor %}
+{% endcomment %}
