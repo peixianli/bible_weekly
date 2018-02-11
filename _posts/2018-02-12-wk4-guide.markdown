@@ -8,7 +8,7 @@ permalink: "/guide/wk4.html"
 weekNum: 4
 ---
 
-{% assign thisWeek = site.posts | <div id="top"></div>
+<div id="top"></div>
 
 {% assign lastWeek = page.week | minus:"1" %}
 {% assign nextWeek = page.week | plus:"1" %}
