@@ -5,16 +5,16 @@ date:   2018-02-12
 categories: weekly guide
 sticky: yes
 permalink: "/guide/wk4.html"
-week: 4
+weekNum: 4
 ---
 
 
 <div id="top"></div>
 
-{% assign lastWeek = page.week | minus:'1' %}
-{% assign nextWeek = page.week | plus:'1' %}
-{% assign lastLink = "wk" | append:{{ lastWeek }} | append:".html" %}
-{% assign nextLink = "wk" | append:{{ nextWeek }} | append:".html" %}
+{% assign lastWeek = page.weekNum | minus:'1' %}
+{% assign nextWeek = page.weekNum | plus:'1' %}
+{% assign lastLink = "wk" | append:lastWeek | append:".html" %}
+{% assign nextLink = "wk" | append:nextWeek | append:".html" %}
 {% assign filter = "/guide/wk" | append:{{ page.week }} | append:".html" %}
 
 |[《上週]({{ lastLink }})|[主页](/)|[下週》]({{ nextLink }})|
