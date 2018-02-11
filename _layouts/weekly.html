@@ -45,14 +45,14 @@ title: {{ site.name }}
 {% assign day = 1 %}
 {% for onePage in thisWeek %}
   {% if day == 1 %}
-    {% assign link = '[&#8679;](#top) [&#8681;](#day2)' %}    
+    {% assign link = '<a href="#top">&#8679;</a>(#top) <a href="#day2">&#8681;</a>' %}    
   {% elsif day == 7 %}
-    {% assign link = '[&#8679;](#day6) [&#8686;](#top)' %}
+    {% assign link = '<a href="#day6">&#8679;</a>(#top) <a href="#top">&#8686;</a>' %}
   {% else %}
     {% assign dayMinus = day | minus:'1' %}
-    {% assign dayMinus = '[&#8679;](#day' | append:dayMinus | append:') ' %}
+    {% assign dayMinus = '<a href="#day{{ dayMinus }}">&#8679;</a>' %}
     {% assign dayPlus = day | plus:'1' %}
-    {% assign dayPlus = '[&#8681;](#day' | append:dayPlus | append:')' %}
+    {% assign dayPlus = '<a href="#day{{ dayPlus }}">&#8681;</a>' %}
     {% assign link = dayMinus | append: dayPlus %}    
   {% endif %}
   
