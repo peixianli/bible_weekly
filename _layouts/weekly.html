@@ -37,7 +37,7 @@ title: {{ site.name }}
     </tr>
   </tbody>
 </table>
----
+<hr>
 
 {% assign thisWeek = site.posts | where: "weekly", filter | sort: "date" %}
 
@@ -57,10 +57,12 @@ title: {{ site.name }}
   {% endif %}
   
 <div id='{{ 'day' | append: day }}'></div>
-## {{ onePage.title | link_to: onePage.permalink }} {{ link }}
+<h2> 
+  {{ onePage.title | link_to: onePage.permalink }} {{ link }}
+</h2>
 
 {{ onePage.content }}
----
+<hr>
 
   {% assign day = day | plus:'1' %}
 {% endfor %}
