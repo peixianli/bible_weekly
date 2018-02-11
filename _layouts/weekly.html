@@ -6,8 +6,9 @@ title: {{ site.name }}
 
 ---
 
-
 <div id="top"></div>
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
 
 {% assign lastWeek = page.weekNum | minus:"1" %}
 {% assign nextWeek = page.weekNum | plus:"1" %}
