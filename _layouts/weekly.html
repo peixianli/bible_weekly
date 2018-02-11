@@ -50,7 +50,7 @@ title: {{ site.name }}
     {% assign link = '<a href="#day6">&#8679;</a>(#top) <a href="#top">&#8686;</a>' %}
   {% else %}
     {% assign dayMinus = day | minus:'1' %}
-    {% assign dayMinus = '<a href="#day{{ dayMinus }}">&#8679;</a>' %}
+    {% assign dayMinus = '<a href="#day' | append:dayMinus | append:'">&#8679;</a>' %}
     {% assign dayPlus = day | plus:'1' %}
     {% assign dayPlus = '<a href="#day{{ dayPlus }}">&#8681;</a>' %}
     {% assign link = dayMinus | append: dayPlus %}    
