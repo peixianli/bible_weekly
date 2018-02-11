@@ -4,7 +4,7 @@ title:  "第 3 週 第 7 天 補漏拾遺"
 date:   2018-02-11
 categories: daily
 prevDay: "/daily/2018-02-10-daily.html"
-nextDay: ""
+nextDay: "/daily/2018-02-12-daily.html"
 weekly: "/guide/wk3.html"
 permalink: /daily/2018-02-11-daily.html
 ---
