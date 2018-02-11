@@ -10,11 +10,11 @@ weekNum: 4
 
 <div id="top"></div>
 
-{% assign lastWeek = page.week | minus:"1" %}
-{% assign nextWeek = page.week | plus:"1" %}
+{% assign lastWeek = page.weekNum | minus:"1" %}
+{% assign nextWeek = page.weekNum | plus:"1" %}
 {% assign lastLink = "wk" | append:lastWeek | append:".html" %}
 {% assign lastLink = "wk" | append:nextWeek | append:".html" %}
-{% assign filter = "/guide/wk" | append:page.week | append:".html" %}
+{% assign filter = "/guide/wk" | append:page.weekNum | append:".html" %}
 
 |[《上週]({{ lastLink }})|[主页](/)|下週》({{ nextLink }})|
 |-----------|
@@ -28,7 +28,7 @@ weekNum: 4
 
 
 {% assign day = 1 %}
-{% for page in thisWeek %}
+{% for onPage in thisWeek %}
   {% if day == 1 %}
     {% assign link = '[&#8679;](#top) [&#8681;](#day2)' %}    
   {% elsif day == 7 %}
@@ -42,8 +42,8 @@ weekNum: 4
   {% endif %}
   
 <div id='{{ 'day' | append: day }}'></div>
-## {{ page.title | link_to: page.permalink }} {{ link }}
+## {{ onePage.title | link_to: onePage.permalink }} {{ link }}
 
-{{ page.content }}
+{{ onePage.content }}
 
 {% endfor %}
