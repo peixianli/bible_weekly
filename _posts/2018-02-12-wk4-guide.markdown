@@ -5,5 +5,5 @@ date:   2018-02-12
 categories: weekly guide
 sticky: yes
 permalink: "/guide/wk4.html"
-weekNum: 3
+weekNum: 4
 ---
