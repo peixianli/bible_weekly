@@ -9,7 +9,7 @@ weekly: "/guide/wk3.html"
 permalink: /daily/2018-02-05-daily.html
 ---
 
-**問題神如何實現後裔的應許？**
+**問題：神如何實現後裔的應許？**
 
 **讀經：[`創世記 20-21【繁體】`](https://www.biblegateway.com/passage/?search=gen.20-21&version=CUVMPT)**
 
