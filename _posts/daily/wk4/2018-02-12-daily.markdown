@@ -3,7 +3,7 @@ layout: daily
 title:  "第 4 週 第 1 天 雅各家族"
 date:   2018-02-12
 categories: daily
-prevDay: "/daily/2018-02-10-daily.html"
+prevDay: "/daily/2018-02-11-daily.html"
 nextDay: "/daily/2018-02-13-daily.html"
 weekly: "/guide/wk4.html"
 permalink: /daily/2018-02-12-daily.html
@@ -37,3 +37,4 @@ permalink: /daily/2018-02-12-daily.html
 **禱告：**
 
 **筆記與回應：**
+
