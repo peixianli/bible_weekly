@@ -1,6 +1,6 @@
 ---
 layout: daily
-title:  "第 5 週 第 4 天 兄弟相認"
+title:  "第 5 週 第 4 天 定居埃及"
 date:   2018-02-22
 categories: daily
 prevDay: "/daily/2018-02-21-daily.html"
@@ -11,7 +11,7 @@ permalink: /daily/2018-02-22-daily.html
 
 ### 問題：以色列在埃及的情況如何？
 
-### 讀經：[創世記 47-48【繁體】](https://www.biblegateway.com/passage/?search=gen.45-46&version=CUVMPT)
+### 讀經：[創世記 47-48【繁體】](https://www.biblegateway.com/passage/?search=gen.47-48&version=CUVMPT)
 
 |[【简体】](https://www.biblegateway.com/passage/?search=gen.47-48&version=CUVMPS)|[【NIV】](https://www.biblegateway.com/passage/?search=gen.47-48&version=NIV)|[【YouVersion】](https://www.bible.com/zh-TW/bible/46/GEN.47.CUNP)
 
