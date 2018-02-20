@@ -1,4 +1,4 @@
----
+--
 layout: daily
 title:  "第 5 週 第 3 天 兄弟相認"
 date:   2018-02-21
@@ -13,9 +13,7 @@ permalink: /daily/2018-02-21-daily.html
 
 ### 讀經：[創世記 45-46【繁體】](https://www.biblegateway.com/passage/?search=gen.45-46&version=CUVMPT)
 
-|[【简体】](https://www.biblegateway.com/passage/?search=gen.45-46&version=CUVMPS)|
-[【NIV】](https://www.biblegateway.com/passage/?search=gen.45-46&version=NIV)|
-[【YouVersion】](https://www.bible.com/zh-TW/bible/46/GEN.45.CUNP)
+|[【简体】](https://www.biblegateway.com/passage/?search=gen.45-46&version=CUVMPS)|[【NIV】](https://www.biblegateway.com/passage/?search=gen.45-46&version=NIV)|[【YouVersion】](https://www.bible.com/zh-TW/bible/46/GEN.45.CUNP)
 
 ### 默想：神的故事
 + `創 45-46` 講述約瑟與兄弟們相認，並且安慰他們。以色列帶著全家搬到埃及。
@@ -36,9 +34,7 @@ permalink: /daily/2018-02-21-daily.html
 
 ### 讀經：[詩篇 31【繁體】](https://www.biblegateway.com/passage/?search=ps.31&version=CUVMPT)
 
-|[【简体】](https://www.biblegateway.com/passage/?search=ps.31&version=CUVMPS)|
-[【NIV】](https://www.biblegateway.com/passage/?search=ps.31&version=NIV)|
-[【YouVersion】](https://www.bible.com/zh-TW/bible/46/PSA.31.CUNP)
+|[【简体】](https://www.biblegateway.com/passage/?search=ps.31&version=CUVMPS)|[【NIV】](https://www.biblegateway.com/passage/?search=ps.31&version=NIV)|[【YouVersion】](https://www.bible.com/zh-TW/bible/46/PSA.31.CUNP)
 
 ### 禱告：
 
