@@ -9,7 +9,7 @@ weekly: "/guide/wk5.html"
 permalink: /daily/2018-02-25-daily.html
 ---
 
-**讀經：[`詩篇 35【繁體】`](https://www.biblegateway.com/passage/?search=ps.35&version=CUVMPT)**
+**讀經：[詩篇 35【繁體】](https://www.biblegateway.com/passage/?search=ps.35&version=CUVMPT)**
 
 |[【简体】](https://www.biblegateway.com/passage/?search=ps.35&version=CUVMPS)|[【NIV】](https://www.biblegateway.com/passage/?search=ps.35&version=NIV)|[【YouVersion】](https://www.bible.com/zh-TW/bible/46/PSA.35.CUNP)
 
