@@ -6,7 +6,7 @@ categories: daily
 prevDay: "/daily/2018-02-25-daily.html"
 nextDay: "/daily/2018-02-27-daily.html"
 weekly: "/guide/wk6.html"
-permalink: /daily/2018-02-25-daily.html
+permalink: /daily/2018-02-26-daily.html
 ---
 
 ### 問題：以色列的後代在埃及的經歷？
