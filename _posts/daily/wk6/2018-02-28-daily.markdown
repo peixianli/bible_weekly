@@ -4,7 +4,7 @@ title:  "第 6 週 第 3 天 神顯權能"
 date:   2018-02-28
 categories: daily
 prevDay: "/daily/2018-02-27-daily.html"
-nextDay: "/daily/2018-02-29-daily.html"
+nextDay: "/daily/2018-03-01-daily.html"
 weekly: "/guide/wk6.html"
 permalink: /daily/2018-02-28-daily.html
 ---
