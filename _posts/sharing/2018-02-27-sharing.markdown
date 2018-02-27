@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "讀經分享：【打苦待】"
+title:  "讀經分享：【苦待】"
 date:   2018-02-27
 categories: sharing
 author: 钱斌
