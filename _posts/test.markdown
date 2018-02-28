@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: 
+permalink: /test.html
 ---
 
 <html>
