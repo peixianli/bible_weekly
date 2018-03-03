@@ -11,7 +11,7 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
-timezone: America/Los_Angeles    
+timezone: America/Chicago    
 
 # Google Analytics
 #google_analytics: UA—114680216-1
