@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "離開埃及"
+date:   2018-03-05
+categories: daily
+permalink: /daily/week7-day1-daily.html
+week#: 7
+day#: 1
+---
+
+{% assign verse1 ="出埃及記 12.31-14.31"
+{% assign bgV1 = "ex.12.31-14.31" %}
+{% assign yvV1 = "EXO.12" %}
+{% assign verse2 = "詩篇 41" %}
+{% assign bgV2 = "ps.41" %}
+{% assign yvV2 = "PSA.41" %}
+
+{% assign bgLink1 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPT" %}
+{% assign bgLink2 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPS" %}
+{% assign bgLink3 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=NIV" %}
+{% assign yvLink1 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV1 | append: ".CUNP" %}
+
+{% assign bgLink4 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=CUVMPT" %}
+{% assign bgLink5 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=CUVMPS" %}
+{% assign bgLink6 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=NIV" %}
+{% assign yvLink2 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV2 | append: ".CUNP" %}
+
+### 問題：
+
+### 讀經：[{{ verse1 }}【繁體】][bgLink1]
+
+|[【简体】][bgLink2]|[【NIV】][bgLink3]|[【YouVersion】][yvLink1]
+
+### 默想：神的故事
+
+
+### 默想：我的故事
+
+
+### 讀經：[{{ verse2 }}【繁體】][bgLink4]
+
+|[【简体】][bgLink5]|[【NIV】][bgLink6]|[【YouVersion】][yvLink2]
+
+### 禱告：
+
+### 筆記與回應：
