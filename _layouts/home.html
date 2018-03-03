@@ -19,7 +19,9 @@ title: {{ site.name }}
         
         {% assign postDate = post.date | date: '%Y-%m-%d'  %}
         {% if today >= postDate %}
-          {% assign todayPost = post %} 
+          {% if today = postDatae %}
+            {% assign todayPost = post %} 
+          {% endif %}
           <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
 
