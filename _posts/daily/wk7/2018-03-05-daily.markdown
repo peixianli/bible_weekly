@@ -25,6 +25,17 @@ day#: 1
 {% assign bgLink6 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=NIV" %}
 {% assign yvLink2 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV2 | append: ".CUNP" %}
 
+[bgLink1]: {{ bgLink1 }}
+[bgLink2]: {{ bgLink2 }}
+[bgLink3]: {{ bgLink3 }}
+[bgLink4]: {{ bgLink4 }}
+[bgLink5]: {{ bgLink5 }}
+[bgLink6]: {{ bgLink6 }}
+[yvLink1]: {{ yvLink1 }}
+[yvLink2]: {{ yvLink2 }}
+
+
+
 ### 問題：
 
 ### 讀經：[{{ verse1 }}【繁體】][bgLink1]
