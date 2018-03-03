@@ -61,7 +61,18 @@ title: {{ site.name }}
 </h2>
 
 {{ onePage.content }}
-{{ onePage.raw_content }}
+
+{% assign pageDate = onePage.date | '%Y-%m-%d' %}
+{% assign sharings = site.posts | where: "categories", "sharing" %}
+
+<ul>
+{% for post in sharings %}
+  {% if post.date == pageDate %}
+  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 <hr>
 
   {% assign day = day | plus:'1' %}
