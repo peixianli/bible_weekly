@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: daily2
 title:  "離開埃及"
 date:   2018-03-05
 categories: daily
 permalink: /daily/week7-day1-daily.html
-week#: 7
-day#: 1
+weekNum: 7
+dayNum: 1
 ---
 
 {% assign verse1 ="出埃及記 12.31-14.31"
