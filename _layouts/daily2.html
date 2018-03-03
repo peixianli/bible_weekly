@@ -4,19 +4,19 @@ title: {{ site.name }}
 ---
 
 {% if page.dayNum == 1 %}
-  {% assign prevWeekNum = page.weekNum | minus:1 %}
+  {% assign prevWeekNum = page.weekNum | minus:"1" %}
   {% assign prevDayNum = 7 %}
 {% elsif page.dayNum == 7 %}
-  {% assign nextWeekNum = page.weekNum | plus:1 %}
+  {% assign nextWeekNum = page.weekNum | plus:"1" %}
   {% assign nextDayNum = 1 %}
 {% else %}
   {% assign nextWeekNum = page.weekNum %}
-  {% assign nextDayNum = page.dayNum | plus:1 %}
+  {% assign nextDayNum = page.dayNum | plus:"1" %}
 {% endif %}
 
 {% assign prevDay = "/daily/week" | append:prevWeekNum | append:"-day" | append:prevDayNum | append:".html" %}
-{% assign prevDay = "/daily/week" | append:nextWeekNum | append:"-day" | append:nextDayNum | append:".html" %}
-{% assign weekly = "/guide/" | append:page.weekNum | append:".html" %}
+{% assign nextDay = "/daily/week" | append:nextWeekNum | append:"-day" | append:nextDayNum | append:".html" %}
+{% assign weekly = "/guide/wk" | append:page.weekNum | append:".html" %}
 
 <table>
   <thead>
