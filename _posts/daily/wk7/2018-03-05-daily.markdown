@@ -3,7 +3,7 @@ layout: daily2
 title:  "離開埃及"
 date:   2018-03-05
 categories: daily
-permalink: /daily/week7-day1-daily.html
+permalink: /daily/wk7-day1-daily.html
 weekNum: 7
 dayNum: 1
 ---
