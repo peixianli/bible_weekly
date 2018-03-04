@@ -4,9 +4,9 @@ title:  "第 6 週 第 7 天 補漏拾遺"
 date:   2018-03-04
 categories: daily
 prevDay: "/daily/2018-03-03-daily.html"
-nextDay: "/daily/2018-03-05-daily.html"
+nextDay: "/daily/week7-day1-daily.html"
 weekly: "/guide/wk6.html"
-permalink: /daily/2018-03-04-daily.html
+permalink: /daily/week6-day7-daily.html
 ---
 
 **讀經：[詩篇 42【繁體】](https://www.biblegateway.com/passage/?search=ps.42&version=CUVMPT)**
