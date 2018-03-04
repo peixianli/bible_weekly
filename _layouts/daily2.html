@@ -14,8 +14,8 @@ title: {{ site.name }}
   {% assign nextDayNum = page.dayNum | plus:"1" %}
 {% endif %}
 
-{% assign prevDay = "/daily/week" | append:prevWeekNum | append:"-day" | append:prevDayNum | append:".html" %}
-{% assign nextDay = "/daily/week" | append:nextWeekNum | append:"-day" | append:nextDayNum | append:".html" %}
+{% assign prevDay = "/daily/wk" | append:prevWeekNum | append:"-day" | append:prevDayNum | append:".html" %}
+{% assign nextDay = "/daily/wk" | append:nextWeekNum | append:"-day" | append:nextDayNum | append:".html" %}
 {% assign weekly = "/guide/wk" | append:page.weekNum | append:".html" %}
 
 <table>
