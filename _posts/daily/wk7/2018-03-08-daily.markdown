@@ -3,7 +3,7 @@ layout: daily2
 title:  "盟約律法"
 date:   2018-03-08
 categories: daily
-permalink: /daily/wk7-day3-daily.html
+permalink: /daily/wk7-day4-daily.html
 weekNum: 7
 dayNum: 4
 bibleTitle1: "出埃及記 19-20"
