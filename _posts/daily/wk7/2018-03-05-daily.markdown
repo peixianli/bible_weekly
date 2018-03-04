@@ -6,35 +6,13 @@ categories: daily
 permalink: /daily/wk7-day1-daily.html
 weekNum: 7
 dayNum: 1
+bibleTitle1: "出埃及記 12.31-14.31"
+bibleGatewayRef1: "ex.12.31-14.31"
+youVersionRef1: "EXO.12"
+bibleTitle2: "詩篇 41"
+bibleGatewayRef2: "ps.41"
+youVersionRef2: "PSA.41"
 ---
-
-{% assign verse1 ="出埃及記 12.31-14.31"
-{% assign bgV1 = "ex.12.31-14.31" %}
-{% assign yvV1 = "EXO.12" %}
-{% assign verse2 = "詩篇 41" %}
-{% assign bgV2 = "ps.41" %}
-{% assign yvV2 = "PSA.41" %}
-
-{% assign bgLink1 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPT" %}
-{% assign bgLink2 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPS" %}
-{% assign bgLink3 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=NIV" %}
-{% assign yvLink1 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV1 | append: ".CUNP" %}
-
-{% assign bgLink4 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=CUVMPT" %}
-{% assign bgLink5 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=CUVMPS" %}
-{% assign bgLink6 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=NIV" %}
-{% assign yvLink2 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV2 | append: ".CUNP" %}
-
-[bgLink1]: {{ bgLink1 }}
-[bgLink2]: {{ bgLink2 }}
-[bgLink3]: {{ bgLink3 }}
-[bgLink4]: {{ bgLink4 }}
-[bgLink5]: {{ bgLink5 }}
-[bgLink6]: {{ bgLink6 }}
-[yvLink1]: {{ yvLink1 }}
-[yvLink2]: {{ yvLink2 }}
-
-
 
 ### 問題：
 
