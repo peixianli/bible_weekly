@@ -20,7 +20,7 @@ weekly: /guide/wk7.html
 {% assign yvV1 = page.youVersionRef1 %}
 {% assign verse2 = page.bibleTitle2 %}
 {% assign bgV2 = page.bibleGatewayRef2 %}
-{% assign yvV2 = page.youVersionRef2 %}
+章{% assign yvV2 = page.youVersionRef2 %}
 
 {% assign bgLink1 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPT" %}
 {% assign bgLink2 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPS" %}
@@ -50,7 +50,7 @@ weekly: /guide/wk7.html
 |[【简体】][bgLink2]|[【NIV】][bgLink3]|[【YouVersion】][yvLink1] 
 
 ### 默想：神的故事 
-+ `出 21-23` 講述神繼十誡後，頒布了以色列人的民事條例。
++ `出 21-23章` 講述神繼十誡後，頒布了以色列人的民事條例。
 
 + 針對以色列人的民事法則，神定了非常詳細的條例，奴隸制度 、懲罰暴行、牲畜賠償、偷竊、人權，司法、節期，面面俱到。民事法的頒佈以兩件事作結，一是應許和以色列人同在，賜他們能力征服迦南，另一件是與百姓確定盟約。
 
