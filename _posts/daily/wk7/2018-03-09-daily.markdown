@@ -12,7 +12,6 @@ youVersionRef1: "EXO.21"
 bibleTitle2: "詩篇 47"
 bibleGatewayRef2: "ps.47"
 youVersionRef2: "PSA.47"
-weekly: /guide/wk7.html
 ---
 
 {% assign verse1 = page.bibleTitle1 %}
@@ -20,7 +19,7 @@ weekly: /guide/wk7.html
 {% assign yvV1 = page.youVersionRef1 %}
 {% assign verse2 = page.bibleTitle2 %}
 {% assign bgV2 = page.bibleGatewayRef2 %}
-章{% assign yvV2 = page.youVersionRef2 %}
+{% assign yvV2 = page.youVersionRef2 %}
 
 {% assign bgLink1 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPT" %}
 {% assign bgLink2 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPS" %}
