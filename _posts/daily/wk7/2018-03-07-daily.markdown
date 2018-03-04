@@ -20,7 +20,6 @@ youVersionRef2: "PSA.45"
 {% assign verse2 = page.bibleTitle2 %}
 {% assign bgV2 = page.bibleGatewayRef2 %}
 {% assign yvV2 = page.youVersionRef2 %}
-
 {% assign bgLink1 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPT" %}
 {% assign bgLink2 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPS" %}
 {% assign bgLink3 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=NIV" %}
@@ -59,7 +58,7 @@ youVersionRef2: "PSA.45"
 建立了以色列人的管理制度。
 
 ### 默想：我的故事 
-+ **【【肢體關係】** 
++ **【肢體關係】** 
 與亞瑪力人爭戰，摩西一人舉起神的杖，卻因手發沉而難以打勝，
 最後靠著亞倫和戶珥的幫助而得勝。我們在服事上，是否也學習依靠弟兄姐妹的幫助，
 建立更健康的服事團隊？
