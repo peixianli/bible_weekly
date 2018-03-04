@@ -12,6 +12,7 @@ youVersionRef1: "EXO.17"
 bibleTitle2: "詩篇 45"
 bibleGatewayRef2: "ps.45"
 youVersionRef2: "PSA.45"
+weekly: /guide/wk7.html
 ---
 
 {% assign verse1 = page.bibleTitle1 %}
