@@ -44,7 +44,6 @@ youVersionRef2: "PSA.41"
 ### 問題：
 
 ### 讀經：[{{ verse1 }}【繁體】][bgLink1]
-
 |[【简体】][bgLink2]|[【NIV】][bgLink3]|[【YouVersion】][yvLink1]
 
 ### 默想：神的故事
@@ -54,7 +53,6 @@ youVersionRef2: "PSA.41"
 
 
 ### 讀經：[{{ verse2 }}【繁體】][bgLink4]
-
 |[【简体】][bgLink5]|[【NIV】][bgLink6]|[【YouVersion】][yvLink2]
 
 ### 禱告：
