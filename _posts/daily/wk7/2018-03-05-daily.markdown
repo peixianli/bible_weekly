@@ -43,6 +43,7 @@ youVersionRef2: "PSA.43"
 
 
 ### 讀經：[{{ verse2 }}【繁體】][bgLink4]
+
 |[【简体】][bgLink5]|[【NIV】][bgLink6]|[【YouVersion】][yvLink2]
 
 ### 禱告：
