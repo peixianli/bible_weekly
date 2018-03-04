@@ -4,7 +4,7 @@ title:  "第 6 週 第 6 天 離開埃及"
 date:   2018-03-03
 categories: daily
 prevDay: "/daily/2018-03-02-daily.html"
-nextDay: "/daily/week6-day7-daily.html"
+nextDay: "/daily/wk6-day7-daily.html"
 weekly: "/guide/wk6.html"
 permalink: /daily/2018-03-03-daily.html
 ---
