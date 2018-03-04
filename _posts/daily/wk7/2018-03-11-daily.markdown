@@ -1,18 +1,48 @@
 ---
-layout: daily
-title:  "第 7 週 第 7 天 補漏拾遺"
-date:   2018-03-11
+layout: daily2
+title:  "補漏拾遺"
+date:   2018-03-11
 categories: daily
-prevDay: "/daily/wk7-day6-daily.html"
-nextDay: "/daily/wk8-day1-daily.html"
-weekly: "/guide/wk7.html"
 permalink: /daily/wk7-day7-daily.html
+weekNum: 7
+dayNum: 7
+bibleTitle1: 
+bibleGatewayRef1: 
+youVersionRef1: 
+bibleTitle2: "詩篇 49"
+bibleGatewayRef2: "ps.49"
+youVersionRef2: "PSA.49"
 ---
 
-**讀經：[詩篇 49【繁體】](https://www.biblegateway.com/passage/?search=ps.49&version=CUVMPT)**
+{% assign verse1 = page.bibleTitle1 %}
+{% assign bgV1 = page.bibleGatewayRef1 %}
+{% assign yvV1 = page.youVersionRef1 %}
+{% assign verse2 = page.bibleTitle2 %}
+{% assign bgV2 = page.bibleGatewayRef2 %}
+{% assign yvV2 = page.youVersionRef2 %}
+{% assign bgLink1 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPT" %}
+{% assign bgLink2 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPS" %}
+{% assign bgLink3 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=NIV" %}
+{% assign yvLink1 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV1 | append: ".CUNP" %}
 
-|[【简体】](https://www.biblegateway.com/passage/?search=ps.49&version=CUVMPS)|[【NIV】](https://www.biblegateway.com/passage/?search=ps.49&version=NIV)|[【YouVersion】](https://www.bible.com/zh-TW/bible/46/PSA.49.CUNP)
+{% assign bgLink4 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=CUVMPT" %}
+{% assign bgLink5 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=CUVMPS" %}
+{% assign bgLink6 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=NIV" %}
+{% assign yvLink2 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV2 | append: ".CUNP" %}
 
-**禱告：**
+[bgLink1]: {{ bgLink1 }}
+[bgLink2]: {{ bgLink2 }}
+[bgLink3]: {{ bgLink3 }}
+[bgLink4]: {{ bgLink4 }}
+[bgLink5]: {{ bgLink5 }}
+[bgLink6]: {{ bgLink6 }}
+[yvLink1]: {{ yvLink1 }}
+[yvLink2]: {{ yvLink2 }}
 
-**筆記與回應：**
+### 讀經：[{{ verse2 }}【繁體】][bgLink4]
+
+|[【简体】][bgLink5]|[【NIV】][bgLink6]|[【YouVersion】][yvLink2]
+
+### 禱告：
+
+### 筆記與回應：
