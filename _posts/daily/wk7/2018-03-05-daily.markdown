@@ -1,6 +1,6 @@
 ---
 layout: daily2
-title:  "離開埃及"
+title:  "Coming Soon"
 date:   2018-03-05
 categories: daily
 permalink: /daily/wk7-day1-daily.html
