@@ -14,12 +14,12 @@ bibleGatewayRef2: "ps.41"
 youVersionRef2: "PSA.41"
 ---
 
-{% assign verse1 = bibleTitle1 %}
-{% assign bgV1 = bibleGatewayRef1 %}
-{% assign yvV1 = youVersionRef1 %}
-{% assign verse2 = bibleTitle2 %}
-{% assign bgV2 = bibleGatewayRef2 %}
-{% assign yvV2 = youVersionRef2 %}
+{% assign verse1 = page.bibleTitle1 %}
+{% assign bgV1 = page.bibleGatewayRef1 %}
+{% assign yvV1 = page.youVersionRef1 %}
+{% assign verse2 = page.bibleTitle2 %}
+{% assign bgV2 = page.bibleGatewayRef2 %}
+{% assign yvV2 = page.youVersionRef2 %}
 
 {% assign bgLink1 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPT" %}
 {% assign bgLink2 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPS" %}
