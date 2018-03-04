@@ -39,6 +39,7 @@ title: {{ site.name }}
 <hr>
 
 {% assign thisWeek = site.posts | where: "weekNum", filter | sort: "date" %}
+{% assign thisWeek = thisWeek | where: "categories", "daily" | sort: "date" %}
 
 
 {% assign day = 1 %}
@@ -57,7 +58,7 @@ title: {{ site.name }}
   
 <div id='{{ 'day' | append: day }}'></div>
 <h2> 
-  {{ onePage.title | link_to: onePage.permalink }} {{ link }}
+  第 {{ onePage.weekNum }} 週 第 {{ onePage.dayNum }} 天 {{ onePage.title | link_to: onePage.permalink }} {{ link }}
 </h2>
 
 {{ onePage.content }}
