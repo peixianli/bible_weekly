@@ -1,6 +1,6 @@
 ---
 layout: daily2
-title:  "Coming Soon"
+title:  "補漏拾遺"
 date:   2018-03-05
 categories: daily
 permalink: /daily/wk7-day1-daily.html
@@ -9,9 +9,9 @@ dayNum: 1
 bibleTitle1: "出埃及記 12.31-14.31"
 bibleGatewayRef1: "ex.12.31-14.31"
 youVersionRef1: "EXO.12"
-bibleTitle2: "詩篇 41"
-bibleGatewayRef2: "ps.41"
-youVersionRef2: "PSA.41"
+bibleTitle2: "詩篇 43"
+bibleGatewayRef2: "ps.43"
+youVersionRef2: "PSA.43"
 ---
 
 {% assign verse1 = page.bibleTitle1 %}
@@ -40,7 +40,7 @@ youVersionRef2: "PSA.41"
 [yvLink1]: {{ yvLink1 }}
 [yvLink2]: {{ yvLink2 }}
 
-
+｛% comment %｝
 ### 問題：
 
 ### 讀經：[{{ verse1 }}【繁體】][bgLink1]
@@ -50,7 +50,7 @@ youVersionRef2: "PSA.41"
 
 
 ### 默想：我的故事
-
+｛% endcomment %｝
 
 ### 讀經：[{{ verse2 }}【繁體】][bgLink4]
 |[【简体】][bgLink5]|[【NIV】][bgLink6]|[【YouVersion】][yvLink2]
