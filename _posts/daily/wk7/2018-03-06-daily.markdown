@@ -1,6 +1,6 @@
 ---
 layout: daily2
-title:  "曠野供應"
+title:  "第 7 週 第 2 天 曠野供應"
 date:   2018-03-06
 categories: daily
 permalink: /daily/wk7-day2-daily.html
