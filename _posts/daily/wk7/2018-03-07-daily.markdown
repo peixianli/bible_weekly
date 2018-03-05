@@ -1,6 +1,6 @@
 ---
 layout: daily2
-title:  "建立團隊"
+title:  “第 7 週 第 3 天 建立團隊"
 date:   2018-03-07
 categories: daily
 permalink: /daily/wk7-day3-daily.html
