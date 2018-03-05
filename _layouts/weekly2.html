@@ -58,7 +58,7 @@ title: {{ site.name }}
   
 <div id='{{ 'day' | append: day }}'></div>
 <h2> 
-  第 {{ onePage.weekNum }} 週 第 {{ onePage.dayNum }} 天 {{ onePage.title | link_to: onePage.permalink }} {{ link }}
+  {{ onePage.title | link_to: onePage.permalink }} {{ link }}
 </h2>
 
 {{ onePage.content }}
