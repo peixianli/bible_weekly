@@ -1,6 +1,6 @@
 ---
 layout: daily2
-title:  "民事條例"
+title:  "第 7 週 第 5 天 民事條例"
 date:   2018-03-09
 categories: daily
 permalink: /daily/wk7-day5-daily.html
