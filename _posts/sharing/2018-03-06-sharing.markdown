@@ -6,8 +6,8 @@ categories: sharing
 permalink: /sharing/2018-03-06-sharing.html
 ---
 
-[【曠野供應】](/daily/2018-03-06-daily.html)
-===========
+## [【曠野供應】](/daily/2018-03-06-daily.html)
+
 
 ### 3月6日 曠野
 
