@@ -4,7 +4,7 @@ title: {{ site.name }}
 ---
 
 {% assign pageDate = page.date | date: '%Y-%m-%d'  %}
-{% assign dailyPage = site.pages | where: "date", pageDate %}
+{% assign dailyPage = site.pages | where: "date", "2018-03-05" %}
 
 {{ dailyPage.title }} {{ pageDate }} {{ dailyPage.url }}
 
