@@ -1,7 +1,7 @@
 ---
 layout: sharing
 date: 2018-03-05
-title: 摩西之歌
+title: 讀經分享: 摩西之歌
 categories: sharing
 permalink: /sharing/2018-03-05-sharing-2.html
 ---
