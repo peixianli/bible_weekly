@@ -3,7 +3,7 @@ layout: post
 title: {{ site.name }}
 ---
 
-{% assign dailyPage = site.pages | where: 'date', page.date |%}
+{% assign dailyPage = site.pages | where: 'date', page.date %}
 {% assign dailyPage = dailyPage | where: 'categories', 'daily' | first %}
 
 <pre>
