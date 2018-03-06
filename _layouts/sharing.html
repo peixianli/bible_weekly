@@ -3,14 +3,12 @@ layout: post
 title: {{ site.name }}
 ---
 
-{% assign dailyPage = site.pages | where: 'date', page.date %}
-{% assign dailyPage = dailyPage | where: 'categories', 'daily' | first %}
+{% assign dailyPage = site.pages | where: 'date', page.date | first %}
 
+<h2><a href={{ dailyPage.url }}>{{ dailyPage.title }}</a></h2>
 <pre>
 {{ dailyPage.bibleTitle1 }}, {{ dailyPage.bibleTitle2 }}
 </pre>
-
-<h2><a href={{ dailyPage.url }}>{{ dailyPage.title }}</a></h2>
 
 <h3>{{ page.title }}</h3>
 
