@@ -1,9 +1,9 @@
 ---
 layout: sharing
-date: 2018-03-05
+date: 2018-03-06
 title: "讀經分享：旷野"
 categories: sharing
-permalink: /sharing/2018-03-05-sharing-2.html
+permalink: /sharing/2018-03-06-sharing.html
 ---
 
 3月6日 曠野
