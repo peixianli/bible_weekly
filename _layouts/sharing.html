@@ -4,9 +4,9 @@ title: {{ site.name }}
 ---
 
 {% assign pageDate = page.date | date: '%Y-%m-%d'  %}
-{% assign dailyPage = site.pages | where: 'date', pageDate | first %}
+{% assign dailyPage = site.pages | where: "date", pageDate %}
 
-{{ dailyPage.title }} e {{ pageDate }} {{ dailyPage.url }}
+{{ dailyPage.title }} {{ pageDate }} {{ dailyPage.url }}
 
 <h2><a href={{ dailyPage.url }}>{{ dailyPage.title }}</a></h2>
 <pre>
