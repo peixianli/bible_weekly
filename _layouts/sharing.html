@@ -4,7 +4,7 @@ title: {{ site.name }}
 ---
 
 {% assign dailyPage = site.pages | where: 'date', page.date | first %}
-
+{{ dailyPage.title }} {{ page.date }} {{ dailyPage.url }}
 <h2><a href={{ dailyPage.url }}>{{ dailyPage.title }}</a></h2>
 <pre>
 {{ dailyPage.bibleTitle1 }}, {{ dailyPage.bibleTitle2 }}
