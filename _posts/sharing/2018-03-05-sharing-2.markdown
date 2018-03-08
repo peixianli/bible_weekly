@@ -3,6 +3,8 @@ layout: sharing
 date: 2018-03-20
 title: "讀經分享：摩西之歌"
 categories: daily
+weekNum: 7
+dayNum: 1
 permalink: /sharing/2018-03-05-sharing-2.html
 ---
 
