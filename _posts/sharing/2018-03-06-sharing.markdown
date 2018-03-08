@@ -3,10 +3,12 @@ layout: post
 date: 2018-03-06
 title: "讀經分享：【旷野】"
 categories: sharing
+weekNum: 7
+dayNum: 2
 permalink: /sharing/2018-03-06-sharing.html
 ---
 
-## [【曠野供應】](/daily/2018-03-06-daily.html)
+## [【曠野供應】](/daily/wk7-day2-daily.html)
 
 
 ### 3月6日 曠野
