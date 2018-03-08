@@ -8,7 +8,7 @@ dayNum: 3
 permalink: /sharing/2018-03-07-sharing.html
 ---
 
-## [【建立團隊】](/daily/2018-03-07-daily.html)
+## [【建立團隊】](/daily/wk7-day3-daily.html)
 
 
 ### 3月7日 真神
