@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2018-03-08
-title: "讀經分享：【真神】"
+title: "讀經分享：【聽從】"
 categories: sharing
 weekNum: 7
 dayNum: 4
