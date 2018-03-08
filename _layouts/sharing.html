@@ -4,9 +4,9 @@ title: {{ site.name }}
 ---
 
 {% assign dailyPage = site.posts | where: "weekNum", page.weekNum %}
-{% assign dailyPage = site.posts | where: "dayNum", page.dayNum %}
+{% assign dailyPage = dailyPage | where: "dayNum", page.dayNum %}
 
-{{ dailyPage.title }} - {{ page.weekNum }} - {{ page.dayNum }} - {{ dailyPage.url }}
+{{ dailyPage.title }} - {{ page.weekNum }} {{ page.dayNum }} - {{ dailyPage.url }}
 
 <h2><a href={{ dailyPage.url }}>{{ dailyPage.title }}</a></h2>
 <pre>
