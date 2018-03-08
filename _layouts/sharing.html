@@ -3,8 +3,8 @@ layout: post
 title: {{ site.name }}
 ---
 
-{% assign pageDate = page.date | date: '%Y-%m-%d'  %}
-{% assign dailyPage = site.pages | where: "date", "2018-03-05" %}
+{% assign dailyPage = site.pages | where: "weekNum", page.weekNum %}
+{% assign dailyPage = dailyPage | where: "dayNum", page.dayNum | first %}
 
 {{ dailyPage.title }} {{ pageDate }} {{ dailyPage.url }}
 
