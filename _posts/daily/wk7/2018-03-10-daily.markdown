@@ -7,8 +7,8 @@ permalink: /daily/wk7-day6-daily.html
 weekNum: 7
 dayNum: 6
 bibleTitle1: "出埃及記 24:1-11"
-bibleGatewayRef1: "ex.24:1-11"
-youVersionRef1: "EXO.24:1-11"
+bibleGatewayRef1: "ex.24.1-11"
+youVersionRef1: "EXO.24"
 bibleTitle2: "詩篇 48"
 bibleGatewayRef2: "ps.48"
 youVersionRef2: "PSA.48"
