@@ -20,9 +20,9 @@ title: {{ site.name }}
   {% assign nextDayNum = page.dayNum | plus:"1" %}
 {% endif %}
 
-{% assign prevDay = "/daily/wk" | append:prevWeekNum | append:"-day" | append:prevDayNum | append:"-daily.html" %}
-{% assign nextDay = "/daily/wk" | append:nextWeekNum | append:"-day" | append:nextDayNum | append:"-daily.html" %}
-{% assign weekly = "/guide/wk" | append:page.weekNum | append:".html" %}
+{% assign prevDay = "/daily/wk" | append:prevWeekNum | append:"-day" | append:prevDayNum | append:"-daily.html#top" %}
+{% assign nextDay = "/daily/wk" | append:nextWeekNum | append:"-day" | append:nextDayNum | append:"-daily.html#top" %}
+{% assign weekly = "/guide/wk" | append:page.weekNum | append:".html#top" %}
 
 <table>
   <thead>
