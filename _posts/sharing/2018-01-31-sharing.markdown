@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: sharing
 title:  "讀經分享：【立約】"
 date:   2018-01-31
 categories: sharing
 author: 钱斌
+weekNum: 2
+dayNum: 2
 permalink: /sharing/2018-01-31-qianbin.html
 ---
 
