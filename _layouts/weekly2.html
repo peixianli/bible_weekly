@@ -8,8 +8,8 @@ title: {{ site.name }}
 
 {% assign lastWeek = page.weekNum | minus:"1" %}
 {% assign nextWeek = page.weekNum | plus:"1" %}
-{% assign lastLink = "wk" | append:lastWeek | append:".html" %}
-{% assign nextLink = "wk" | append:nextWeek | append:".html" %}
+{% assign lastLink = "wk" | append:lastWeek | append:".html#top" %}
+{% assign nextLink = "wk" | append:nextWeek | append:".html#top" %}
 {% assign filter = page.weekNum %}
 
 <table>
