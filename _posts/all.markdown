@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: all
 title:  "全部文章"
-date:   2018-01-01
-categories: guide
+date:   2018-04-01
+categories: 
 ---
 
 
