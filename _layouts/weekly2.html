@@ -58,7 +58,7 @@ title: {{ site.name }}
   
 <div id='{{ 'day' | append: day }}'></div>
 <h2> 
-  [{{ onePage.title }}] ({{ onePage.permalink }}) {{ link }}
+  <a href="{{ onePage.url }}">{{ onePage.title }}</a> {{ link }}
 </h2>
 
 {{ onePage.content }}
