@@ -3,7 +3,8 @@ layout: post
 title: {{ site.name }}
 ---
 
-{% assign dailyPage = site.posts | where: "weekNum", page.weekNum | first %}
+{% assign posts = site.posts | where: "weekNum", page.weekNum %}
+{% assign dailyPage = posts | where: "dayNum",page.dayNum | first %}
 
 {{ dailyPage.title }} - {{ page.weekNum }} {{ page.dayNum }} - {{ dailyPage.url }}
 
