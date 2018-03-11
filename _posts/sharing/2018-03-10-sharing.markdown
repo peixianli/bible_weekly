@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sharing
 date: 2018-03-10
 title: "讀經分享：【約書】"
 categories: sharing
@@ -7,10 +7,6 @@ weekNum: 7
 dayNum: 6
 permalink: /sharing/2018-03-10-sharing.html
 ---
-
-## [【確立盟約】](/daily/wk7-day6-daily.html)
-
-### 3月10日 約書
 
 **讀經：`出埃及記 24:1-11`；`詩篇48`**
 
