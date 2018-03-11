@@ -4,8 +4,8 @@ title: {{ site.name }}
 ---
 
 {% assign posts = site.posts | where: "weekNum", page.weekNum %}
-{% assign posts = posts | where: "dayNum", page.dayNum %}
-{% assign dailyPage = posts | where: "categories", "daily" | first %} 
+{% assign posts2 = posts | where: "dayNum", page.dayNum %}
+{% assign dailyPage = posts2 | where: "categories", "daily" | first %} 
 
 {{ dailyPage.title }} - {{ page.weekNum }} {{ page.dayNum }} - {{ dailyPage.url }}
 
