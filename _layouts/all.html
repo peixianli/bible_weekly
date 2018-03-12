@@ -5,6 +5,15 @@ title: {{ site.name }}
 
 ---
 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
 ### 所有文章
 
 {% assign weeklyPosts = site.posts | where: "categories", "weekly" | sort: "date" %}
@@ -14,13 +23,15 @@ title: {{ site.name }}
 <ul>
 {% for post in weeklyPosts %}
 
-  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      <ul>
+  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li> <button data-toggle="collapse" data-target="#week">Collapsible</button>
+  <div id="week">    
+  <ul>
         {% assign weekNum = post.weekNum %}
         {% assign thisWeek = dailyPosts | where: "weekNum", weekNum | sort: "date" %}
         {% for dailyPost in thisWeek %}
           <li><a href="{{ site.baseurl }}{{ dailyPost.url }}">{{ dailyPost.title }}</a></li>
         {% endfor %}
       </ul>
+  </div>
   {% endfor %}
 </ul>
