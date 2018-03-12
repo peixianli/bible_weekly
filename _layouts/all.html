@@ -11,7 +11,7 @@ title: {{ site.name }}
 {% assign dailyPosts = site.posts | where: "categories", "daily" %}
 {% assign sharingPosts = site.posts | where: "categories", "sharing" %}
 
-<ul>
+
 {% for post in weeklyPosts %}
 
   {% assign weekNum = post.weekNum %}
@@ -34,4 +34,3 @@ title: {{ site.name }}
   {% endif %}
   
 {% endfor %}
-</ul>
