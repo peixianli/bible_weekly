@@ -1,6 +1,6 @@
 ---
 layout: sharing
-date: 2018-03-20
+date: 2018-03-05
 title: "讀經分享：摩西之歌"
 categories: sharing
 weekNum: 7
