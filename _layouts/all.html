@@ -5,6 +5,18 @@ title: {{ site.name }}
 
 ---
 
+<style type="text/css">
+ .row { vertical-align: top; height:auto !important; }
+ .list {display:none; }
+ .show {display: none; }
+ .hide:target + .show {display: inline; }
+ .hide:target {display: none; }
+ .hide:target ~ .list {display:inline; }
+ @media print { .hide, .show { display: none; } }
+ </style>
+
+### 所有文章
+
 {% assign weeklyPosts = site.posts | where: "categories", "weekly" | sort: "date" %}
 {% assign dailyPosts = site.posts | where: "categories", "daily" %}
 {% assign sharingPosts = site.posts | where: "categories", "sharing" %}
@@ -13,6 +25,11 @@ title: {{ site.name }}
 {% for post in weeklyPosts %}
 
   <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  <div class="row">
+  <a href="#hide1" class="hide" id="hide1">Expand</a>
+  <a href="#show1" class="show" id="show1">Collapse</a>
+    <div class="list">
+
       <ul>
         {% assign weekNum = post.weekNum %}
         {% assign thisWeek = dailyPosts | where: "weekNum", weekNum | sort: "date" %}
@@ -20,5 +37,7 @@ title: {{ site.name }}
           <li><a href="{{ site.baseurl }}{{ dailyPost.url }}">{{ dailyPost.title }}</a></li>
         {% endfor %}
       </ul>
+    </div>
+  </div>
 {% endfor %}
 </ul>
