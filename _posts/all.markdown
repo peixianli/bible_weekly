@@ -3,7 +3,7 @@ layout: post
 title:  "全部文章"
 date:   2018-04-01
 categories: all
-permalink: "all.html"
+permalink: "/all.html"
 ---
 
 {% assign weeklyPosts = site.posts | where: "categories", "weekly" | sort: "date" %}
