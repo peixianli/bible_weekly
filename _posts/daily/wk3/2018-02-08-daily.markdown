@@ -6,6 +6,8 @@ categories: daily
 prevDay: "/daily/2018-02-07-daily.html"
 nextDay: "/daily/2018-02-09-daily.html"
 weekly: "/guide/wk3.html"
+weekNum: 3
+dayNum: 4
 permalink: /daily/2018-02-08-daily.html
 ---
 
