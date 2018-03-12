@@ -5,12 +5,20 @@ title: {{ site.name }}
 
 ---
 
-{% assign weeklyPosts = site.posts | where: "categories", "weekly" %}
+{% assign weeklyPosts = site.posts | where: "categories", "weekly" | sort: "date" %}
+{% assign dailyPosts = site.posts | where: "categories", "daily" %}
+{% assign sharingPosts = site.posts | where: "categories", "sharing" %}
 
 <ul>
 {% for post in weeklyPosts %}
 
   <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-
+      <ul>
+        {% assign weekNum = post.weekNum %}
+        {% assign thisWeek = dailyPosts | where: "weekNum", weekNum | sort: "date" %}
+        {% for dailyPost in thisWeek %}
+          <li><a href="{{ site.baseurl }}{{ dailyPost.url }}">{{ dailPost.title }}</a></li>
+        {% endfor %}
+      </ul>
 {% endfor %}
 </ul>
