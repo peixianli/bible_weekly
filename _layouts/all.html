@@ -14,7 +14,8 @@ title: {{ site.name }}
 <ul>
 {% for post in weeklyPosts %}
 
-  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li> 
+  <details>
+    <summary><li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li> </summary>
     <ul>
         {% assign weekNum = post.weekNum %}
         {% assign thisWeek = dailyPosts | where: "weekNum", weekNum | sort: "date" %}
@@ -22,5 +23,6 @@ title: {{ site.name }}
           <li><a href="{{ site.baseurl }}{{ dailyPost.url }}">{{ dailyPost.title }}</a></li>
         {% endfor %}
       </ul>
-  {% endfor %}
+  </details>
+{% endfor %}
 </ul>
