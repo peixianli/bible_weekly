@@ -5,7 +5,7 @@ title: {{ site.name }}
 
 ---
 
-{% assign weeklyPosts = site.posts | where: "categories", "weekly" | sort: "date" %}
+{% assign weeklyPosts = site.posts | where: "categories", "weekly" %}
 
 <ul>
 {% for post in weeklyPosts %}
