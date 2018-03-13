@@ -29,9 +29,9 @@ title: {{ site.name }}
           <li><a href="{{ site.baseurl }}{{ dailyPost.url }}">{{ dailyPost.title }}</a></li>
           {% if dailyPost.bibleTitle2.size > 0 %}
             
-            <pre><a href='{{ bgLink | append:dailyPost.bibleGatewayRef1 | append: "&version=CUVMPT" }}'>
+            <a href='{{ bgLink | append:dailyPost.bibleGatewayRef1 | append: "&version=CUVMPT" }}'>
                 {{ dailyPost.bibleTitle1 }}</a>   <a href='{{ bgLink | append:dailyPost.bibleGatewayRef2 | append: "&version=CUVMPT" }}'>
-                {{ dailyPost.bibleTitle2 }}</a></pre>
+                {{ dailyPost.bibleTitle2 }}</a>
           {% endif %}
         {% endfor %}
       </ul>
