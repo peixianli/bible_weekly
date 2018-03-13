@@ -1,0 +1,9 @@
+---
+layout: sharing
+date: 2018-03-12
+title: "讀經分享：【約書】"
+categories: sharing
+weekNum: 8
+dayNum: 1
+permalink: /sharing/2018-03-12-sharing.html
+---
