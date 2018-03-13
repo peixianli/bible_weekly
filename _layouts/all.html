@@ -13,6 +13,7 @@ title: {{ site.name }}
 {% assign dailyPosts = site.posts | where: "categories", "daily" %}
 {% assign sharingPosts = site.posts | where: "categories", "sharing" %}
 
+{% assign bgLink = "https://www.biblegateway.com/passage/?search=" %}
 
 {% for post in weeklyPosts %}
 
@@ -27,10 +28,13 @@ title: {{ site.name }}
         {% for dailyPost in thisWeek %}
           <li><a href="{{ site.baseurl }}{{ dailyPost.url }}">{{ dailyPost.title }}</a></li>
           {% if dailyPost.bibleTitle2.size > 0 %}
+            
           <table>            
-            <tr>
-              <td>{{ dailyPost.bibleTitle1 }}</td>
-              <td>{{ dailyPost.bibleTitle2 }}</td>
+            <tr>              
+              <td><a href='{{ bgLink1 | append:dailyPost.bibleGatewayRef1 | append: "&version=CUVMPT" }}'>
+                {{ dailyPost.bibleTitle1 }}</a></td>
+              <td><a href='{{ bgLink1 | append:dailyPost.bibleGatewayRef2 | append: "&version=CUVMPT" }}'>
+                {{ dailyPost.bibleTitle2 }}</a></td>
             </tr>
           </table>
           {% endif %}
