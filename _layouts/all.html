@@ -26,15 +26,14 @@ title: {{ site.name }}
         {% assign thisWeek = dailyPosts | where: "weekNum", weekNum | sort: "date" %}
         {% for dailyPost in thisWeek %}
           <li><a href="{{ site.baseurl }}{{ dailyPost.url }}">{{ dailyPost.title }}</a></li>
-          <table>
-            <tr>
-              <td colspan="2"><a href="{{ site.baseurl }}{{ dailyPost.url }}">{{ dailyPost.title }}</a></td>              
-            </tr>
+          {% if dailyPost.bibleTitle2.size > 0 %}
+          <table>            
             <tr>
               <td>{{ dailyPost.bibleTitle1 }}</td>
               <td>{{ dailyPost.bibleTitle2 }}</td>
             </tr>
           </table>
+          {% endif %}
         {% endfor %}
       </ul>
   </details>
