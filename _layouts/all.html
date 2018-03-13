@@ -31,9 +31,9 @@ title: {{ site.name }}
             
           <table>            
             <tr>              
-              <td><a href='{{ bgLink1 | append:dailyPost.bibleGatewayRef1 | append: "&version=CUVMPT" }}'>
+              <td><a href='{{ bgLink | append:dailyPost.bibleGatewayRef1 | append: "&version=CUVMPT" }}'>
                 {{ dailyPost.bibleTitle1 }}</a></td>
-              <td><a href='{{ bgLink1 | append:dailyPost.bibleGatewayRef2 | append: "&version=CUVMPT" }}'>
+              <td><a href='{{ bgLink | append:dailyPost.bibleGatewayRef2 | append: "&version=CUVMPT" }}'>
                 {{ dailyPost.bibleTitle2 }}</a></td>
             </tr>
           </table>
