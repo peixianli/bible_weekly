@@ -8,6 +8,12 @@ nextDay: "/daily/2018-02-18-daily.html"
 weekly: "/guide/wk4.html"
 weekNum: 4
 dayNum: 6
+bibleTitle1: "創世記 39-40"
+bibleGatewayRef1: "gen.39-40"
+youVersionRef1: "GEN.39"
+bibleTitle2: "詩篇 27"
+bibleGatewayRef2: "ps.27"
+youVersionRef2: "PSA.27"
 permalink: /daily/2018-02-17-daily.html
 ---
 
