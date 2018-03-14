@@ -1,10 +1,10 @@
 ---
 layout: daily
 title:  "第 2 週 第 1 天 呼召應許"
-date:   2018-01-28
+date:   2018-01-29
 categories: daily
-permalink: /daily/2018-01-28-daily.html
-prevDay: "/daily/2018-01-28-daily.html"
+permalink: /daily/2018-01-29-daily.html
+prevDay: "/daily/2018-01-29-daily.html"
 nextDay: "/daily/2018-01-30-daily.html"
 weekly: "/guide/wk2.html"
 bibleTitle1: "創世記 11:27-12:20"
