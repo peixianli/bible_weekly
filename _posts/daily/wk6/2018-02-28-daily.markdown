@@ -11,9 +11,9 @@ dayNum: 3
 bibleTitle1: "出埃及記 6.28-9.35"
 bibleGatewayRef1: "ex.6.28-9.35"
 youVersionRef1: "EXO.6"
-bibleTitle2: "詩篇 36"
-bibleGatewayRef2: "ps.37"
-youVersionRef2: "PSA.37"
+bibleTitle2: "詩篇 38"
+bibleGatewayRef2: "ps.38"
+youVersionRef2: "PSA.38"
 permalink: /daily/2018-02-28-daily.html
 ---
 
