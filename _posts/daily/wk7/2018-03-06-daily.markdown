@@ -6,7 +6,7 @@ categories: daily
 permalink: /daily/wk7-day2-daily.html
 weekNum: 7
 dayNum: 2
-bibleTitle1: "出埃及記 15.22-17.7"
+bibleTitle1: "出埃及記 15:22-17:7"
 bibleGatewayRef1: "ex.15.22-17.7"
 youVersionRef1: "EXO.15"
 bibleTitle2: "詩篇 44"
