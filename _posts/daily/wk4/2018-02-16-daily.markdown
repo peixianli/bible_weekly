@@ -8,7 +8,7 @@ nextDay: "/daily/2018-02-17-daily.html"
 weekly: "/guide/wk4.html"
 weekNum: 4
 dayNum: 5
-bibleTitle1: "創世記 37.2-38.30"
+bibleTitle1: "創世記 37:2-38:30"
 bibleGatewayRef1: "gen.37.2-38.30"
 youVersionRef1: "GEN.37"
 bibleTitle2: "詩篇 26"
