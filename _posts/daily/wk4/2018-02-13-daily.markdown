@@ -8,6 +8,12 @@ nextDay: "/daily/2018-02-14-daily.html"
 weekly: "/guide/wk4.html"
 weekNum: 4
 dayNum: 2
+bibleTitle1: "創世記 32-33"
+bibleGatewayRef1: "gen.32-33"
+youVersionRef1: "GEN.32"
+bibleTitle2: "詩篇 23"
+bibleGatewayRef2: "ps.23"
+youVersionRef2: "PSA.23"
 permalink: /daily/2018-02-13-daily.html
 ---
 
