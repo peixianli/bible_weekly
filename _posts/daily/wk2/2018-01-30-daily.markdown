@@ -11,7 +11,8 @@ youVersionRef1: "GEN.13"
 bibleTitle2: "詩篇 9"
 bibleGatewayRef2: "ps.9"
 youVersionRef2: "PSA.9"
-Date: 2018-01-30
+weekNum: 2
+dayNum: 2
 ---
 
 
