@@ -3,7 +3,7 @@ layout: daily
 title:  "第 2 週 第 2 天 祝福地土"
 date:   2018-01-30
 categories: daily
-permalink: /daily/2018-01-31-content.html
+permalink: /daily/2018-01-31-daily.html
 prevDay: "/daily/2018-01-29-daily.html"
 nextDay: "/daily/2018-01-31-daily.html"
 weekly: "/guide/wk2.html"
