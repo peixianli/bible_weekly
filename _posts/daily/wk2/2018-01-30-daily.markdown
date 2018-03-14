@@ -3,8 +3,8 @@ layout: daily
 title:  "第 2 週 第 2 天 祝福地土"
 date:   2018-01-30
 categories: daily
-permalink: /daily/2018-01-31-daily.html
-prevDay: "/daily/2018-01-28-daily.html"
+permalink: /daily/2018-01-30-daily.html
+prevDay: "/daily/2018-01-29-daily.html"
 nextDay: "/daily/2018-01-31-daily.html"
 weekly: "/guide/wk2.html"
 bibleTitle1: "創世記 13-14"
