@@ -6,7 +6,7 @@ categories: daily
 permalink: /daily/wk7-day3-daily.html
 weekNum: 7
 dayNum: 3
-bibleTitle1: "出埃及記 17.8-18.27"
+bibleTitle1: "出埃及記 17:8-18:27"
 bibleGatewayRef1: "ex.17.8-18.27"
 youVersionRef1: "EXO.17"
 bibleTitle2: "詩篇 45"
