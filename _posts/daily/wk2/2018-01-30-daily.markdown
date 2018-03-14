@@ -1,11 +1,17 @@
 ---
 layout: post
 title:  "今日读经内容"
-date:   2018-01-30 20:31:02 -0800
+date:   2018-01-30
 categories: daily
 permalink: /guide/2018-01-30-content.html
 hide: 1
-forDate: 2018-01-30
+bibleTitle1: "創世記 13-14"
+bibleGatewayRef1: "gen.13-14"
+youVersionRef1: "GEN.13"
+bibleTitle2: "詩篇 9"
+bibleGatewayRef2: "ps.9"
+youVersionRef2: "PSA.9"
+Date: 2018-01-30
 ---
 
 
