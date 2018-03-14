@@ -8,7 +8,7 @@ nextDay: "/daily/wk6-day7-daily.html"
 weekly: "/guide/wk6.html"
 weekNum: 6
 dayNum: 6
-bibleTitle1: "出埃及記 12.31-14.31"
+bibleTitle1: "出埃及記 12:31-14:31"
 bibleGatewayRef1: "ex.12.31-14.31"
 youVersionRef1: "EXO.12"
 bibleTitle2: "詩篇 41"
