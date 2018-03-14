@@ -8,6 +8,12 @@ nextDay: "/daily/2018-02-11-daily.html"
 weekly: "/guide/wk3.html"
 weekNum: 3
 dayNum: 6
+bibleTitle1: "創世記 27-28"
+bibleGatewayRef1: "gen.27-28"
+youVersionRef1: "GEN.27"
+bibleTitle2: "詩篇 20"
+bibleGatewayRef2: "ps.20"
+youVersionRef2: "PSA.20"
 permalink: /daily/2018-02-10-daily.html
 ---
 
