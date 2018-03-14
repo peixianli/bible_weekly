@@ -8,6 +8,12 @@ nextDay: "/daily/2018-02-09-daily.html"
 weekly: "/guide/wk3.html"
 weekNum: 3
 dayNum: 4
+bibleTitle1: "創世記 25:12-18"
+bibleGatewayRef1: "gen.25.12-18"
+youVersionRef1: "GEN.25"
+bibleTitle2: "詩篇 18"
+bibleGatewayRef2: "ps.18"
+youVersionRef2: "PSA.18"
 permalink: /daily/2018-02-08-daily.html
 ---
 
