@@ -8,6 +8,12 @@ nextDay: "/daily/2018-02-05-daily.html"
 weekly: "/guide/wk2.html"
 weekNum: 2
 dayNum: 7
+bibleTitle1: 
+bibleGatewayRef1: 
+youVersionRef1:
+bibleTitle2: "詩篇 14"
+bibleGatewayRef2: "ps.14"
+youVersionRef2: "PSA.14"
 permalink: /daily/2018-02-04-daily.html
 ---
 
