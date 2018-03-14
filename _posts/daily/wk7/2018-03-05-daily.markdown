@@ -6,7 +6,7 @@ categories: daily
 permalink: /daily/wk7-day1-daily.html
 weekNum: 7
 dayNum: 1
-bibleTitle1: "出埃及記 15.1-21"
+bibleTitle1: "出埃及記 15:1-21"
 bibleGatewayRef1: "ex.15.1-21"
 youVersionRef1: "EXO.15"
 bibleTitle2: "詩篇 43"
