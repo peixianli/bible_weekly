@@ -3,7 +3,7 @@ layout: daily
 title:  "第 2 週 第 3 天 應許後裔"
 date:   2018-01-31
 categories: daily
-prevDay: "/daily/2018-01-31-daily.html"
+prevDay: "/daily/2018-01-30-daily.html"
 nextDay: "/daily/2018-02-01-daily.html"
 weekly: "/guide/wk2.html"
 weekNum: 2
