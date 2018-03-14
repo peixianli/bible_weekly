@@ -8,6 +8,12 @@ nextDay: "/daily/2018-02-27-daily.html"
 weekly: "/guide/wk6.html"
 weekNum: 6
 dayNum: 1
+bibleTitle1: "出埃及記 3-4"
+bibleGatewayRef1: "ex.3-4"
+youVersionRef1: "EXO.3"
+bibleTitle2: "詩篇 36"
+bibleGatewayRef2: "ps.36"
+youVersionRef2: "PSA.36"
 permalink: /daily/2018-02-26-daily.html
 ---
 
