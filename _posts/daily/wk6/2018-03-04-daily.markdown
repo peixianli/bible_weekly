@@ -8,6 +8,12 @@ nextDay: "/daily/wk7-day1-daily.html"
 weekly: "/guide/wk6.html"
 weekNum: 6
 dayNum: 7
+bibleTitle1: 
+bibleGatewayRef1: 
+youVersionRef1: 
+bibleTitle2: "詩篇 42"
+bibleGatewayRef2: "ps.42"
+youVersionRef2: "PSA.42"
 permalink: /daily/wk6-day7-daily.html
 ---
 
