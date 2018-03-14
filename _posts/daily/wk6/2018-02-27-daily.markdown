@@ -8,6 +8,12 @@ nextDay: "/daily/2018-02-28-daily.html"
 weekly: "/guide/wk6.html"
 weekNum: 6
 dayNum: 2
+bibleTitle1: "出埃及記 5.1-6.27"
+bibleGatewayRef1: "ex.5.1-6.27"
+youVersionRef1: "EXO.5"
+bibleTitle2: "詩篇 37"
+bibleGatewayRef2: "ps.37"
+youVersionRef2: "PSA.37"
 permalink: /daily/2018-02-27-daily.html
 ---
 
