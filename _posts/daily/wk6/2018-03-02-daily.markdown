@@ -8,7 +8,7 @@ nextDay: "/daily/2018-03-03-daily.html"
 weekly: "/guide/wk6.html"
 weekNum: 6
 dayNum: 5
-bibleTitle1: "出埃及記 12.1-30"
+bibleTitle1: "出埃及記 12:1-30"
 bibleGatewayRef1: "ex.12.1-30"
 youVersionRef1: "EXO.12"
 bibleTitle2: "詩篇 40"
