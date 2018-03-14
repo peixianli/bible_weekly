@@ -8,6 +8,12 @@ nextDay: "/daily/2018-02-02-daily.html"
 weekly: "/guide/wk2.html"
 weekNum: 2
 dayNum: 4
+bibleTitle1: "創世記 17"
+bibleGatewayRef1: "gen.17"
+youVersionRef1: "GEN.17"
+bibleTitle2: "詩篇 11"
+bibleGatewayRef2: "ps.11"
+youVersionRef2: "PSA.11"
 permalink: /daily/2018-02-01-daily.html
 ---
 
