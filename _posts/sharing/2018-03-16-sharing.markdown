@@ -1,7 +1,7 @@
 ---
 layout: sharing
 date: 2018-03-16
-title: "讀經分享：【成聖】"
+title: "讀經分享：【同去】"
 categories: sharing
 weekNum: 8
 dayNum: 5
