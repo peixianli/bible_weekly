@@ -1,13 +1,11 @@
 ---
 
-layout: default
-
+layout: post
 title: {{ site.name }}
 
 ---
 
 <div id="home">
-
   <h1>最新文章</h1>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   
@@ -20,8 +18,10 @@ title: {{ site.name }}
       {% if post.categories contains "daily" %}
         
         {% assign postDate = post.date | date: '%Y-%m-%d'  %}
-        {% if today == postDate %}
-          {% assign todayPost = post %} 
+        {% if today >= postDate %}
+          {% if today == postDate %}
+            {% assign todayPost = post %} 
+          {% endif %}
           <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
 
@@ -32,10 +32,12 @@ title: {{ site.name }}
       {% endif %}
     
     {% endfor %}
-
+    
+    <li><a href="/all.html">其它文章</a></li>
   </ul>
   <hr> 
   
+  <div id="today"></div>
   <h1>今日讀經内容</h1>
   <h2>{{ todayPost.title }}</h2>
   <p class="meta">{{ todayPost.date | date: '%B %d, %Y' }}</p>
@@ -51,5 +53,4 @@ title: {{ site.name }}
     {% endif %}
   {% endfor %}
 </ul>
-
 </div>

@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-06-daily.html"
 nextDay: "/daily/2018-02-08-daily.html"
 weekly: "/guide/wk3.html"
+weekNum: 3
+dayNum: 3
+bibleTitle1: "創世記 24-25:11"
+bibleGatewayRef1: "gen.24-25.11"
+youVersionRef1: "GEN.24"
+bibleTitle2: "詩篇 17"
+bibleGatewayRef2: "ps.17"
+youVersionRef2: "PSA.17"
 permalink: /daily/2018-02-07-daily.html
 ---
 

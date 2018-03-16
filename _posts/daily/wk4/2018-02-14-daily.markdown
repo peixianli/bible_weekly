@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-13-daily.html"
 nextDay: "/daily/2018-02-15-daily.html"
 weekly: "/guide/wk4.html"
+weekNum: 4
+dayNum: 3
+bibleTitle1: "創世記 34-35"
+bibleGatewayRef1: "gen.34-35"
+youVersionRef1: "GEN.34"
+bibleTitle2: "詩篇 24"
+bibleGatewayRef2: "ps.24"
+youVersionRef2: "PSA.24"
 permalink: /daily/2018-02-14-daily.html
 ---
 

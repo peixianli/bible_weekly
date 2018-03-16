@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-17-daily.html"
 nextDay: "/daily/2018-02-19-daily.html"
 weekly: "/guide/wk4.html"
+weekNum: 4
+dayNum: 7
+bibleTitle1: 
+bibleGatewayRef1: 
+youVersionRef1: 
+bibleTitle2: "詩篇 28"
+bibleGatewayRef2: "ps.28"
+youVersionRef2: "PSA.28"
 permalink: /daily/2018-02-18-daily.html
 ---
 

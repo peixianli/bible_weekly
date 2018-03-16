@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-24-daily.html"
 nextDay: "/daily/2018-02-26-daily.html"
 weekly: "/guide/wk5.html"
+weekNum: 5
+dayNum: 7
+bibleTitle1:
+bibleGatewayRef1:
+youVersionRef1: 
+bibleTitle2: "詩篇 35"
+bibleGatewayRef2: "ps.35"
+youVersionRef2: "PSA.35"
 permalink: /daily/2018-02-25-daily.html
 ---
 

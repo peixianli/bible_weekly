@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-14-daily.html"
 nextDay: "/daily/2018-02-16-daily.html"
 weekly: "/guide/wk4.html"
+weekNum: 4
+dayNum: 4
+bibleTitle1: "創世記 36-37:1"
+bibleGatewayRef1: "gen.36-37.1"
+youVersionRef1: "GEN.36"
+bibleTitle2: "詩篇 25"
+bibleGatewayRef2: "ps.25"
+youVersionRef2: "PSA.25"
 permalink: /daily/2018-02-15-daily.html
 ---
 

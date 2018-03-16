@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-02-daily.html"
 nextDay: "/daily/2018-02-04-daily.html"
 weekly: "/guide/wk2.html"
+weekNum: 2
+dayNum: 6
+bibleTitle1: "創世記 18:16-19:38"
+bibleGatewayRef1: "gen.18:16-19:38"
+youVersionRef1: "GEN.18"
+bibleTitle2: "詩篇 13"
+bibleGatewayRef2: "ps.13"
+youVersionRef2: "PSA.13"
 permalink: /daily/2018-02-03-daily.html
 ---
 

@@ -1,0 +1,14 @@
+---
+layout: post
+title: {{ site.name }}
+---
+
+{% assign posts = site.posts | where: "weekNum", page.weekNum %}
+{% assign posts2 = posts | where: "dayNum", page.dayNum %}
+{% assign dailyPage = posts2 | where: "categories", "daily" | first %} 
+
+<h2><a href={{ dailyPage.url }}>{{ dailyPage.title }}</a></h2>
+
+<h3>{{ page.title }}</h3>
+
+{{ page.content }}

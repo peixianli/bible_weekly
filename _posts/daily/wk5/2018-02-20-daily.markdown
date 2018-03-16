@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-19-daily.html"
 nextDay: "/daily/2018-02-21-daily.html"
 weekly: "/guide/wk5.html"
+weekNum: 5
+dayNum: 2
+bibleTitle1: "創世記 43-44"
+bibleGatewayRef1: "gen.43-44"
+youVersionRef1: "GEN.43"
+bibleTitle2: "詩篇 30"
+bibleGatewayRef2: "ps.30"
+youVersionRef2: "PSA.30"
 permalink: /daily/2018-02-20-daily.html
 ---
 

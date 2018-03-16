@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-08-daily.html"
 nextDay: "/daily/2018-02-10-daily.html"
 weekly: "/guide/wk3.html"
+weekNum: 3
+dayNum: 5
+bibleTitle1: "創世記 25:19-26:35"
+bibleGatewayRef1: "gen.25.19-26.35"
+youVersionRef1: "GEN.25"
+bibleTitle2: "詩篇 19"
+bibleGatewayRef2: "ps.19"
+youVersionRef2: "PSA.19"
 permalink: /daily/2018-02-09-daily.html
 ---
 

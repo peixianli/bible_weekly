@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-22-daily.html"
 nextDay: "/daily/2018-02-24-daily.html"
 weekly: "/guide/wk5.html"
+weekNum: 5
+dayNum: 5
+bibleTitle1: "創世記 49-50"
+bibleGatewayRef1: "gen.49-50"
+youVersionRef1: "GEN.49"
+bibleTitle2: "詩篇 33"
+bibleGatewayRef2: "ps.33"
+youVersionRef2: "PSA.33"
 permalink: /daily/2018-02-23-daily.html
 ---
 

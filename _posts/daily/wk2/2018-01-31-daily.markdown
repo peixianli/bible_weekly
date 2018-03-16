@@ -3,9 +3,17 @@ layout: daily
 title:  "第 2 週 第 3 天 應許後裔"
 date:   2018-01-31
 categories: daily
-prevDay: ""
+prevDay: "/daily/2018-01-30-daily.html"
 nextDay: "/daily/2018-02-01-daily.html"
 weekly: "/guide/wk2.html"
+weekNum: 2
+dayNum: 3
+bibleTitle1: "創世記 15-16"
+bibleGatewayRef1: "gen.15-16"
+youVersionRef1: "GEN.15"
+bibleTitle2: "詩篇 10"
+bibleGatewayRef2: "ps.10"
+youVersionRef2: "PSA.10"
 permalink: /daily/2018-01-31-daily.html
 ---
 

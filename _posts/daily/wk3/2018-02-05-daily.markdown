@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-04-daily.html"
 nextDay: "/daily/2018-02-06-daily.html"
 weekly: "/guide/wk3.html"
+weekNum: 3
+dayNum: 1
+bibleTitle1: "創世記 20-21"
+bibleGatewayRef1: "gen.20-21"
+youVersionRef1: "GEN.20"
+bibleTitle2: "詩篇 15"
+bibleGatewayRef2: "ps.15"
+youVersionRef2: "PSA.15"
 permalink: /daily/2018-02-05-daily.html
 ---
 

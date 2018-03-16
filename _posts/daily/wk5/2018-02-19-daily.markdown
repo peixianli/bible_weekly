@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-18-daily.html"
 nextDay: "/daily/2018-02-20-daily.html"
 weekly: "/guide/wk5.html"
+weekNum: 5
+dayNum: 1
+bibleTitle1: "創世記 41-42"
+bibleGatewayRef1: "gen.41-42"
+youVersionRef1: "GEN.41"
+bibleTitle2: "詩篇 29"
+bibleGatewayRef2: "ps.29"
+youVersionRef2: "PSA.29"
 permalink: /daily/2018-02-19-daily.html
 ---
 

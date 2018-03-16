@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-23-daily.html"
 nextDay: "/daily/2018-02-25-daily.html"
 weekly: "/guide/wk5.html"
+weekNum: 5
+dayNum: 6
+bibleTitle1: "出埃及記 1-2"
+bibleGatewayRef1: "ex.1-2"
+youVersionRef1: "EXO.1"
+bibleTitle2: "詩篇 34"
+bibleGatewayRef2: "ps.34"
+youVersionRef2: "PSA.34"
 permalink: /daily/2018-02-24-daily.html
 ---
 

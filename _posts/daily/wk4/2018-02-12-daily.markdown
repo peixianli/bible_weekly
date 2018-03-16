@@ -6,6 +6,14 @@ categories: daily
 prevDay: "/daily/2018-02-11-daily.html"
 nextDay: "/daily/2018-02-13-daily.html"
 weekly: "/guide/wk4.html"
+weekNum: 4
+dayNum: 1
+bibleTitle1: "創世記 29-31"
+bibleGatewayRef1: "gen.29-31"
+youVersionRef1: "GEN.29"
+bibleTitle2: "詩篇 22"
+bibleGatewayRef2: "ps.22"
+youVersionRef2: "PSA.22"
 permalink: /daily/2018-02-12-daily.html
 ---
 
