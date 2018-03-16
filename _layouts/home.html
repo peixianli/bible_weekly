@@ -1,42 +1,60 @@
 ---
 
-layout: default
-
+layout: post
 title: {{ site.name }}
 
 ---
 
-
-
 <div id="home">
-
-  <table>
-    <tr>
-      <td style="display: inline-block; border: none; vertical-align: top; padding: 15px">
-  <h1>文章链接</h1>
-
+  <h1>最新文章</h1>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  
   <ul class="posts">
-    
+
     {% assign today = site.time | date: '%Y-%m-%d'  %}
-    {% for post in site.posts %}
-        <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    
+
+    {% for post in site.posts limit:16 %}
+      
+      {% if post.categories contains "daily" %}
         
         {% assign postDate = post.date | date: '%Y-%m-%d'  %}
-        {% if today == postDate %}
-          {% assign todayContent = post.content %}          
+        {% if today >= postDate %}
+          {% if today == postDate %}
+            {% assign todayPost = post %} 
+          {% endif %}
+          <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
-    
-        
-    {% endfor %}
 
+      {% else %}
+        
+        <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      
+      {% endif %}
+    
+
+    {% endfor %}
+    
+    <li><a href="/all.html">其它文章</a></li>
   </ul>
-      </td>
-      <td style="display: inline-block; border: none; vertical-align: top; padding: 15px">
-        <h1>今日导读</h1>
-        {{ site.time | date: '%b %d, %Y' }}
-        {{ todayContent }}
-      </td>
-    </tr>
-  </table>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+  <hr> 
+  
+  <div id="today"></div>
+  <h1>今日讀經内容</h1>
+  <h2>{{ todayPost.title }}</h2>
+  <p class="meta">{{ todayPost.date | date: '%B %d, %Y' }}</p>
+  {{ todayPost.content }}
+    
+  {% assign sharings = site.posts | where: "categories", "sharing" %}
+  {% assign pageDate = todayPost.date | '%Y-%m-%d' %}
+  
+  <ul> 
+  {% for post in sharings %}
+    {% if post.date == pageDate %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
 </div>

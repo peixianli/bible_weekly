@@ -1,21 +1,17 @@
 ---
-
-
-
 layout: default
-
-
-
 title: {{ site.name }}
-
-
-
 ---
 
-<h2>{{ page.title }}</h2>
-
-<p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
-
-
-
 {{ content }}
+
+<p></p>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114680216-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114680216-1');
+</script>

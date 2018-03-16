@@ -1,0 +1,101 @@
+---
+layout: post
+title:  "讀經向導：第 3 週"
+date:   2018-02-05
+categories: weekly guide
+weekNum: 3
+permalink: /guide/wk3.html
+---
+
+<div id="top"></div>
+
+|[《上週](wk2.html)|[主页](/)|[下週》](wk4.html)|
+|-----------|
+|[第1天](#day1)|[第2天](#day2)|[第3天](#day3)|[第4天](#day4)|
+|[第5天](#day5)|[第6天](#day6)|[第7天](#day7)|
+
+---
+
+{% assign thisWeek = site.posts | where: "weekly", "/guide/wk3.html" | sort: "date" %}
+
+
+{% assign day = 1 %}
+{% for page in thisWeek %}
+  {% if day == 1 %}
+    {% assign link = '[&#8679;](#top) [&#8681;](#day2)' %}    
+  {% elsif day == 7 %}
+    {% assign link = '[&#8679;](#day6) [&#8686;](#top)' %}
+  {% else %}
+    {% assign dayMinus = day | minus:'1' %}
+    {% assign dayMinus = '[&#8679;](#day' | append:dayMinus | append:') ' %}
+    {% assign dayPlus = day | plus:'1' %}
+    {% assign dayPlus = '[&#8681;](#day' | append:dayPlus | append:')' %}
+    {% assign link = dayMinus | append: dayPlus %}    
+  {% endif %}
+  
+<div id='{{ 'day' | append: day }}'></div>
+## {{ page.title | link_to: page.permalink }} {{ link }}
+
+{{ page.content }}
+
+---
+
+  {% assign day = day | plus:'1' %}
+{% endfor %}
+
+{% comment %}
+<div id="day1"></div>
+{% assign article = thisWeek[0] %}
+{{ article.title | link_to: article.url }} [&#8679;](#top) [&#8681;](#day2)
+-----------------------
+{{ article.content }}
+
+---
+
+<div id="day2"></div>
+{% assign article = thisWeek[1] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day1) [&#8681;](#day3)
+-----------------------
+{{ article.content }}
+
+---
+
+<div id="day3"></div>
+{% assign article = thisWeek[2] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day2) [&#8681;](#day4)
+-----------------------
+{{ article.content }}
+
+---
+
+<div id="day4"></div>
+{% assign article = thisWeek[3] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day3) [&#8681;](#day5)
+-----------------------
+{{ article.content }}
+
+---
+
+<div id="day5"></div>
+{% assign article = thisWeek[4] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day4) [&#8681;](#day6)
+-----------------------
+{{ article.content }}
+
+---
+
+<div id="day6"></div>
+{% assign article = thisWeek[5] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day5) [&#8681;](#day7)
+-----------------------
+{{ article.content }}
+
+---
+
+<div id="day7"></div>
+{% assign article = thisWeek[6] %}
+{{ article.title | link_to: article.url }} [&#8679;](#day6) [&#8686;](#top)
+-----------------------
+{{ article.content }}
+
+{% endcomment %}
