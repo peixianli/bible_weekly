@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sharing
 title:  "讀經分享：【歌唱】"
 date:   2018-03-05
 categories: sharing
