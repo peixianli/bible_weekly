@@ -1,7 +1,7 @@
 ---
 layout: daily2
-title:  "第 9 週 第 3 天 奉獻會幕"
-date:   2018-03-24
+title:  "第 9 週 第 4 天 奉獻會幕"
+date:   2018-03-22
 categories: daily
 permalink: /daily/wk9-day4-daily.html
 weekNum: 9
