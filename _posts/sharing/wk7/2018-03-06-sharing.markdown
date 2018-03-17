@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sharing
 date: 2018-03-06
 title: "讀經分享：【旷野】"
 categories: sharing
