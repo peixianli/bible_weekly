@@ -9,8 +9,9 @@ title: {{ site.name }}
 {% assign bgLink = "https://www.biblegateway.com/passage/?search=" %}
 
 <h2><a href={{ dailyPage.url }}>{{ dailyPage.title }}</a></h2>
+讀經：
 <a href='{{ bgLink | append:dailyPage.bibleGatewayRef1 | append: "&version=CUVMPT" }}'>
-   {{ dailyPage.bibleTitle1 }}</a>  
+   <code><strong>{{ dailyPage.bibleTitle1 }}</strong></code></a>  
 <a href='{{ bgLink | append:dailyPage.bibleGatewayRef2 | append: "&version=CUVMPT" }}'>
    {{ dailyPage.bibleTitle2 }}</a>
 
