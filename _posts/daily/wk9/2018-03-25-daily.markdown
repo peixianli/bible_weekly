@@ -1,10 +1,10 @@
 ---
 layout: daily2
-title:  "第 8 週 第 7 天 補漏拾遺"
-date:   2018-03-18
+title:  "第 9 週 第 7 天 補漏拾遺"
+date:   2018-03-25
 categories: daily
 permalink: /daily/wk8-day7-daily.html
-weekNum: 8
+weekNum: 9
 dayNum: 7
 bibleTitle1: 
 bibleGatewayRef1: 
