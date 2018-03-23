@@ -1,0 +1,9 @@
+---
+layout: sharing
+date: 2018-03-22
+title: "讀經分享：【聖衣】"
+categories: sharing
+weekNum: 9
+dayNum: 4
+permalink: /sharing/2018-03-22-sharing.html
+---
