@@ -1,9 +1,9 @@
 ---
 layout: daily2
-title:  "第 10 週 第 4 天 [coming soon]"
-date:   2018-03-29
+title:  "第 10 週 第 5 天 [coming soon]"
+date:   2018-03-30
 categories: daily
-permalink: /daily/wk10-day4-daily.html
+permalink: /daily/wk10-day5-daily.html
 weekNum: 10
 dayNum: 5
 bibleTitle1: "利未記 10"
