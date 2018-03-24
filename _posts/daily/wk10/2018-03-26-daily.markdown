@@ -52,7 +52,7 @@ youVersionRef2: "PSA.64"
 
 ### 默想：我的故事 
 
-[store 2 coming soon]
+[story 2 coming soon]
 
 ### 讀經：[{{ verse2 }}【繁體】][bgLink4]
 
