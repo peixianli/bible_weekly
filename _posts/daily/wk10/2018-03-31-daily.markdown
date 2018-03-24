@@ -1,6 +1,6 @@
 ---
 layout: daily2
-title:  "第 10 週 第 6 天 [coming soon]"
+title:  "第 10 週 第 6 天 潔淨條例"
 date:   2018-03-31
 categories: daily
 permalink: /daily/wk10-day6-daily.html
@@ -39,7 +39,7 @@ youVersionRef2: "PSA.69"
 [yvLink1]: {{ yvLink1 }}
 [yvLink2]: {{ yvLink2 }}
 
-### 問題： [question]？
+### 問題：如何潔淨才能被神所接納？
 
 ### 讀經：[{{ verse1 }}【繁體】][bgLink1] 
 
