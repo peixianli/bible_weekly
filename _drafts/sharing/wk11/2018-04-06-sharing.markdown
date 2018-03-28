@@ -1,0 +1,11 @@
+---
+layout: sharing
+date: 2018-04-06
+title: "讀經分享：【】"
+categories: sharing
+weekNum: 11
+dayNum: 5
+permalink: /sharing/2018-04-06-sharing.html
+---
+
+`錢斌傳道`
