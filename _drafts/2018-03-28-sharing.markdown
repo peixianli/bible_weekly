@@ -1,7 +1,7 @@
 ---
 layout: sharing
 date: 2018-03-28
-title: "讀經分享：【贖罪】"
+title: "讀經分享：【】"
 categories: sharing
 weekNum: 10
 dayNum: 3
