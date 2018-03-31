@@ -1,7 +1,7 @@
 ---
 layout: weekly
 title:  "讀經向導：第 4 週"
-date:   2018-02-19
+date:   2018-02-12
 categories: weekly guide
 sticky: yes
 permalink: "/guide/wk4.html"
