@@ -39,7 +39,7 @@ youVersionRef2: "PSA.80"
 [yvLink1]: {{ yvLink1 }}
 [yvLink2]: {{ yvLink2 }}
 
-### 問題: 問題:人如何許願守神的約？
+### 問題: 人如何許願守神的約？
 
 ### 讀經：[{{ verse1 }}【繁體】][bgLink1] 
 
