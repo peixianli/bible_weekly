@@ -1,7 +1,7 @@
 ---
 layout: daily2
 title:  "第12週 第1天 "
-date:   2018-04-07
+date:   2018-04-09
 categories: daily
 permalink: /daily/wk12-day1-daily.html
 weekNum: 12
