@@ -9,7 +9,7 @@ github_username: bibleplan
 # Build settings
 markdown: kramdown
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
 timezone: America/Chicago    
