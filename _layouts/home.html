@@ -14,7 +14,7 @@ title: {{ site.name }}
 
     {% assign today = site.time | date: '%Y-%m-%d'  %}
     
-    {% assign recentPosts = site.posts | where_exp:"post","post.date < today" %}
+   
 
     {% for post in recentposts limit:6 %}
 
