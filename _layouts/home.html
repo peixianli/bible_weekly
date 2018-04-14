@@ -16,7 +16,7 @@ title: {{ site.name }}
     
     {% assign recentPosts = site.posts | where_exp:"post","post.date < today" %}
 
-    {% for post in recentposts limit:16 %}
+    {% for post in recentposts limit:6 %}
 
       
       {% if post.categories contains "daily" %}
