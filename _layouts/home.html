@@ -1,20 +1,22 @@
 ---
-
 layout: post
 title: {{ site.name }}
-
 ---
 
 <div id="home">
-  <h1>最新文章</h1>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
   
+  
+ <h1>最新文章</h1>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+   
   <ul class="posts">
 
     {% assign today = site.time | date: '%Y-%m-%d'  %}
     
 
     {% for post in site.posts limit:16 %}
+
       
       {% if post.categories contains "daily" %}
         
@@ -23,12 +25,12 @@ title: {{ site.name }}
           {% if today == postDate %}
             {% assign todayPost = post %} 
           {% endif %}
-          <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          <li><span>{{ post.date | date: '%b %d, %Y' }}</span> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
 
       {% else %}
         
-        <li><span>{{ post.date | date: '%b %d, %Y' }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        <li><span>{{ post.date | date: '%b %d, %Y' }}</span> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
       
       {% endif %}
     
@@ -39,7 +41,7 @@ title: {{ site.name }}
   </ul>
 
   <hr> 
-  
+
   <div id="today"></div>
   <h1>今日讀經内容</h1>
   <h2>{{ todayPost.title }}</h2>
@@ -56,5 +58,5 @@ title: {{ site.name }}
     {% endif %}
   {% endfor %}
 </ul>
-
 </div>
+

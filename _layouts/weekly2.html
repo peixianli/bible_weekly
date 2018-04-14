@@ -38,6 +38,9 @@ title: {{ site.name }}
 </table>
 <hr>
 
+{{ content }}
+<hr>
+
 {% assign thisWeek = site.posts | where: "weekNum", filter | sort: "date" %}
 {% assign thisWeek = thisWeek | where: "categories", "daily" | sort: "date" %}
 

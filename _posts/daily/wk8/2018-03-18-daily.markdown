@@ -9,9 +9,9 @@ dayNum: 7
 bibleTitle1: 
 bibleGatewayRef1: 
 youVersionRef1: 
-bibleTitle2: "詩篇 55"
-bibleGatewayRef2: "ps.55"
-youVersionRef2: "PSA.55"
+bibleTitle2: "詩篇 56"
+bibleGatewayRef2: "ps.56"
+youVersionRef2: "PSA.56"
 ---
 
 {% assign verse1 = page.bibleTitle1 %}
