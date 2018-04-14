@@ -1,17 +1,17 @@
 ---
 layout: daily2
-title:  "第 8 週 第 7 天 補漏拾遺"
-date:   2018-03-18
+title:  "第 9 週 第 1 天 建造會幕"
+date:   2018-03-19
 categories: daily
-permalink: /daily/wk8-day7-daily.html
-weekNum: 8
-dayNum: 7
-bibleTitle1: 
-bibleGatewayRef1: 
-youVersionRef1: 
-bibleTitle2: "詩篇 56"
-bibleGatewayRef2: "ps.56"
-youVersionRef2: "PSA.56"
+permalink: /daily/wk9-day1-daily.html
+weekNum: 9
+dayNum: 1
+bibleTitle1: "出埃及記 35-36"
+bibleGatewayRef1: "ex.35-36"
+youVersionRef1: "EXO.35"
+bibleTitle2: "詩篇 57"
+bibleGatewayRef2: "ps.57"
+youVersionRef2: "PSA.57"
 ---
 
 {% assign verse1 = page.bibleTitle1 %}
@@ -38,6 +38,26 @@ youVersionRef2: "PSA.56"
 [bgLink6]: {{ bgLink6 }}
 [yvLink1]: {{ yvLink1 }}
 [yvLink2]: {{ yvLink2 }}
+
+### 問題： 神如何指示開始建造會幕？
+
+### 讀經：[{{ verse1 }}【繁體】][bgLink1] 
+
+|[【简体】][bgLink2]|[【NIV】][bgLink3]|[【YouVersion】][yvLink1] 
+
+### 默想：神的故事 
++ 出 35-36 章講述神曉喻以色列民開始建造會幕。
+
++ 開始建造會幕，神指示以色列民，首先要守安息日（因神與百姓重新立約，安息日是約的標記），
+百姓要甘心奉獻，而且神會賜給工人智慧、聰明、知識。
+
+### 默想：我的故事 
++ **【與神同行】** 建造會幕的需要是昂貴，他們的奉獻不但足夠，而且有餘。
+我們對神的事工、神的供應，奉獻的心，應該有什麼樣的認識跟信心？
+
++ **【服事忠誠】** 建造會幕，需要材料、也需要工人，每人都要「甘心樂意」，奉獻自己的一份。
+也需要神給的智慧、聰明、與知識。我們的服事，是否在金錢、才幹、時間各方面都「甘心樂意」，
+也都尋求神的所賜的智慧、聰明、知識？
 
 ### 讀經：[{{ verse2 }}【繁體】][bgLink4]
 

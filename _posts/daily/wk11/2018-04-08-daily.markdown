@@ -1,17 +1,17 @@
 ---
 layout: daily2
-title:  "第 8 週 第 7 天 補漏拾遺"
-date:   2018-03-18
+title:  "第 11 週 第 7 天 補漏拾遺"
+date:   2018-04-08
 categories: daily
-permalink: /daily/wk8-day7-daily.html
-weekNum: 8
+permalink: /daily/wk11-day7-daily.html
+weekNum: 11
 dayNum: 7
 bibleTitle1: 
 bibleGatewayRef1: 
 youVersionRef1: 
-bibleTitle2: "詩篇 56"
-bibleGatewayRef2: "ps.56"
-youVersionRef2: "PSA.56"
+bibleTitle2: "詩篇 77"
+bibleGatewayRef2: "ps.77"
+youVersionRef2: "PSA.77"
 ---
 
 {% assign verse1 = page.bibleTitle1 %}

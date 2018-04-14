@@ -4,7 +4,7 @@ title: {{ site.name }}
 ---
 <div id="top"></div>
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
+<p class="meta">test</p>
 
 {% assign lastWeek = page.weekNum | minus:"1" %}
 {% assign nextWeek = page.weekNum | plus:"1" %}
@@ -39,7 +39,6 @@ title: {{ site.name }}
 <hr>
 
 {{ content }}
-<hr>
 
 {% assign thisWeek = site.posts | where: "weekNum", filter | sort: "date" %}
 {% assign thisWeek = thisWeek | where: "categories", "daily" | sort: "date" %}

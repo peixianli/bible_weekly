@@ -1,17 +1,17 @@
 ---
 layout: daily2
-title:  "第 8 週 第 7 天 補漏拾遺"
-date:   2018-03-18
+title:  "第 11 週 第 6 天 節期條例"
+date:   2018-04-07
 categories: daily
-permalink: /daily/wk8-day7-daily.html
-weekNum: 8
-dayNum: 7
-bibleTitle1: 
-bibleGatewayRef1: 
-youVersionRef1: 
-bibleTitle2: "詩篇 56"
-bibleGatewayRef2: "ps.56"
-youVersionRef2: "PSA.56"
+permalink: /daily/wk11-day6-daily.html
+weekNum: 11
+dayNum: 6
+bibleTitle1: "利未記 23:1-24:9"
+bibleGatewayRef1: "lv.23.1-24.9"
+youVersionRef1: "LEV.23"
+bibleTitle2: "詩篇 76"
+bibleGatewayRef2: "ps.76"
+youVersionRef2: "PSA.76"
 ---
 
 {% assign verse1 = page.bibleTitle1 %}
@@ -38,6 +38,21 @@ youVersionRef2: "PSA.56"
 [bgLink6]: {{ bgLink6 }}
 [yvLink1]: {{ yvLink1 }}
 [yvLink2]: {{ yvLink2 }}
+
+### 問題: 聖潔子民要守哪些神的節期?
+
+### 讀經：[{{ verse1 }}【繁體】][bgLink1] 
+
+|[【简体】][bgLink2]|[【NIV】][bgLink3]|[【YouVersion】][yvLink1] 
+
+### 默想：神的故事 
+
++ `利未記23章`是神所要求的節期。神吩咐以色列人守的節期有逾越節,除酵節,初熟節,五旬節,吹角節,贖罪日和住棚節。
++ `利未記24:1-9`,是在會幕燃燈的條例,和陳設餅的條例。
+
+### 默想：我的故事 
+
++ 【與神同行】`利未記23章`記錄的七大節期,它們的共同之處是什麼?這些共同之處,給我怎樣的提醒?我們現在也有很多有基督教背景的節期,但是很多都失去了原來的慶祝目的。我應該怎樣在這樣的節期記念救贖主呢?
 
 ### 讀經：[{{ verse2 }}【繁體】][bgLink4]
 
