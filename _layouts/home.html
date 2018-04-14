@@ -14,7 +14,9 @@ title: {{ site.name }}
 
     {% assign today = site.time | date: '%Y-%m-%d'  %}
     
-    {% for post in site.posts limit:26 %}
+
+    {% for post in site.posts limit:16 %}
+
       
       {% if post.categories contains "daily" %}
         
@@ -32,10 +34,12 @@ title: {{ site.name }}
       
       {% endif %}
     
+
     {% endfor %}
     
     <li><a href="/all.html">其它文章</a></li>
   </ul>
+
   <hr> 
 
   <div id="today"></div>
@@ -54,5 +58,5 @@ title: {{ site.name }}
     {% endif %}
   {% endfor %}
 </ul>
-  </div>
+</div>
 
