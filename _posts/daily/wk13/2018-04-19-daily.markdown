@@ -1,0 +1,64 @@
+---
+layout: daily2
+title:  "第13週 第4天 "
+date:   2018-04-19
+categories: daily
+permalink: /daily/wk13-day4-daily.html
+weekNum: 13
+dayNum: 4
+bibleTitle1: "民數記 "
+bibleGatewayRef1: "num."
+youVersionRef1: "NUM."
+bibleTitle2: "詩篇 88"
+bibleGatewayRef2: "ps.88"
+youVersionRef2: "PSA.88"
+---
+
+{% assign verse1 = page.bibleTitle1 %}
+{% assign bgV1 = page.bibleGatewayRef1 %}
+{% assign yvV1 = page.youVersionRef1 %}
+{% assign verse2 = page.bibleTitle2 %}
+{% assign bgV2 = page.bibleGatewayRef2 %}
+{% assign yvV2 = page.youVersionRef2 %}
+{% assign bgLink1 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPT" %}
+{% assign bgLink2 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=CUVMPS" %}
+{% assign bgLink3 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=NIV" %}
+{% assign yvLink1 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV1 | append: ".CUNP" %}
+
+{% assign bgLink4 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=CUVMPT" %}
+{% assign bgLink5 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=CUVMPS" %}
+{% assign bgLink6 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=NIV" %}
+{% assign yvLink2 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV2 | append: ".CUNP" %}
+
+[bgLink1]: {{ bgLink1 }}
+[bgLink2]: {{ bgLink2 }}
+[bgLink3]: {{ bgLink3 }}
+[bgLink4]: {{ bgLink4 }}
+[bgLink5]: {{ bgLink5 }}
+[bgLink6]: {{ bgLink6 }}
+[yvLink1]: {{ yvLink1 }}
+[yvLink2]: {{ yvLink2 }}
+
+### 問題: ？
+
+### 讀經：[{{ verse1 }}【繁體】][bgLink1] 
+
+|[【简体】][bgLink2]|[【NIV】][bgLink3]|[【YouVersion】][yvLink1] 
+
+### 默想：神的故事 
+
+
+
+
+
+### 默想：我的故事 
+
+
+
+### 讀經：[{{ verse2 }}【繁體】][bgLink4]
+
+|[【简体】][bgLink5]|[【NIV】][bgLink6]|[【YouVersion】][yvLink2]
+
+### 禱告：
+
+### 筆記與回應：
