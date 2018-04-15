@@ -6,8 +6,8 @@ categories: daily
 permalink: /daily/wk13-day3-daily.html
 weekNum: 13
 dayNum: 3
-bibleTitle1: "民數記 9:15-10"
-bibleGatewayRef1: "num.9.15-10"
+bibleTitle1: "民數記 9:15-10:36"
+bibleGatewayRef1: "num.9.15-10:36"
 youVersionRef1: "NUM.9"
 bibleTitle2: "詩篇 87"
 bibleGatewayRef2: "ps.87"
