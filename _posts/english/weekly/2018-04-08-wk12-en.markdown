@@ -8,10 +8,10 @@ permalink: "/en/guide/wk12.html"
 weekNum: 12
 ---
 
-<div id="top"></div>
+<div id="top"></div> 
 
 <div id="forward"></div>
-## Week 12 Forward
+## Week 12 Forward  [中文] (/guide/wk12.html)
 
 We are now completing the reading on the Book of Leviticus and starting on the Book of Numbers.
 
