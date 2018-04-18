@@ -11,7 +11,7 @@ weekNum: 12
 <div id="top"></div>
 
 <div id="forward"></div>
-## Forward
+## Week 12 Forward
 
 We are now completing the reading on the Book of Leviticus and starting on the Book of Numbers.
 
