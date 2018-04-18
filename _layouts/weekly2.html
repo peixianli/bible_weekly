@@ -3,7 +3,7 @@ layout: post
 title: {{ site.name }}
 ---
 <div id="top"></div>
-<h2>{{ page.title }}</h2> <a href="{{ "/en" | append: page.permalink }}">English Version</a>
+<h2>{{ page.title }} <a href="{{ "/en" | append: page.permalink }}">English Version</a></h2>
 <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
 
 {% assign lastWeek = page.weekNum | minus:"1" %}
