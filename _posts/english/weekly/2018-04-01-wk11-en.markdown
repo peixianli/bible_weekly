@@ -37,7 +37,8 @@ weekNum: 11
 ### Notes and Responses
 
 <hr>
-<div id="day2">
+<div id="day2"></div>
+
 ## Day 2, Day of Atonement
 
 ### Question: What are the other regulations to keep Israelites holy?
@@ -62,9 +63,8 @@ weekNum: 11
 
 ### Notes and Responses
 
-</div>
 <hr>
-<div id="day3">
+<div id="day3"></id>
 
 ## Day 3, Holy Behaviors
 
@@ -90,9 +90,8 @@ weekNum: 11
 
 ### Notes and Responses
 
-</div>
 <hr>
-<div id="day4">
+<div id="day4"></div>
 
 ## Day 4, Various Laws
 
@@ -115,9 +114,8 @@ weekNum: 11
 
 ### Notes and Responses
 
-</div>
 <hr>
-<div id="day5">
+<div id="day5"></div>
 
 ## Day 5, Holy Priests
 
@@ -142,9 +140,8 @@ weekNum: 11
 
 ### Notes and Responses
 
-</div>
 <hr>
-<div id="day6>
+<div id="day6></div>
 
 ## Day 6, The Festivals
 
@@ -165,9 +162,9 @@ weekNum: 11
 ### Prayer
 
 ### Notes and Responses
-</div>
+
 <hr>
-<div id="day7">
+<div id="day7"></div>
 
 ## Week 11 Day 7 
 
