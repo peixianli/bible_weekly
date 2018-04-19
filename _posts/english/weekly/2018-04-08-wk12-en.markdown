@@ -9,25 +9,24 @@ weekNum: 12
 ---
 
 <div id="top"></div> 
+# Weekly Guide: Week 12   [(中文)](/guide/wk12.html)
 
 <div id="forward"></div>
-## Week 12 Forward  [中文](/guide/wk12.html)
-
-We are now completing the reading on the Book of Leviticus and starting on the Book of Numbers.
+## Forward 
+We are now completing the reading on the `Book of Leviticus` and starting on the `Book of Numbers`.
 
 Tips and highlights of this week’s reading:
-
-* Leviticus records the law God gave to Israelites on the Mount Saini to help them to be holy, to be
+* `Leviticus` records the law God gave to Israelites on the Mount Saini to help them to be holy, to be
 gracious, and to live out a righteous life in loving relationship with God and other people. 
 
 * Understanding God’s holiness is required to be holy. God’s holiness was revealed in their history how
 God lead the Israelites as a relationship. So, the result of our holiness should not be expressed only as
-our actions, but the outcome of our hearts. As apostle Paul said: “May the Lord make your love increase
+our actions, but the outcome of our hearts. As apostle Paul said: “`May the Lord make your love increase
 and overflow for each other and for everyone else, just as ours does for you. May he strengthen your
 hearts so that you will be blameless and holy in the presence of our God and Father when our Lord Jesus
-comes with all his holy ones.” (`1 Thessalonians 3:12-13`)
+comes with all his holy ones.`” (`1 Thessalonians 3:12-13`)
 
-* The Book of Numbers is the account of God’s work in rebuilding the Israelites. After leaving Mount Saini,
+* The `Book of Numbers` is the account of God’s work in rebuilding the Israelites. After leaving Mount Saini,
 the Israelites wandered in the wilderness for 40 years and finally entered the promised land in the plains
 of Moab.
 
@@ -35,18 +34,18 @@ May you all be renewed in God’s word!
 
 <hr>
 <div id="day1"></div>
-## Week 12 Day 1, The Sabbath Year
+## Day 1, The Sabbath Year
 
 ### Question: What are the regulations on blasphemy, killing, and Sabbath Year?
 
 ### Scripture Reading: Leviticus 24:10-25:55
 
 ### Meditation: God’s Story
-* Leviticus 24:10-22 records the punishment laid upon a Gentile who blasphemed against God and
-thus committed an offense of the 3 rd law of the ten commandments. “You are to have the same
-law for the foreigner and the native-born. I am the Lord your God.”
+* `Leviticus 24:10-22` records the punishment laid upon a Gentile who blasphemed against God and
+thus committed an offense of the 3 rd law of the ten commandments. “`You are to have the same
+law for the foreigner and the native-born. I am the Lord your God.`”
 
-* 25:1-22 are about the regulations on Sabbath Year and Year of Jubilee. 25:23-55 talks about the
+* `25:1-22` are about the regulations on Sabbath Year and Year of Jubilee. `25:23-55` talks about the
 necessary attitude toward property and poverty to realize the meaning of Sabbath Year and
 Year of Jubilee.
 
@@ -55,8 +54,8 @@ Year of Jubilee.
 work. The Year of Jubilee occurs once after every 49 years. What was God’s intention for these?
 Do I know the true meaning of Sabbath? Do I often take refuge in God?
 
-* Community – 24:17-22 records the punishments for injuring others and their animals. In 25:23-
-55 records the attitude toward property and poverty. What is my attitude toward other people
+* Community – `24:17-22` records the punishments for injuring others and their animals. In `25:23-
+55` records the attitude toward property and poverty. What is my attitude toward other people
 around me and their property?
 
 ### Scripture Reading: Psalm 78
@@ -67,7 +66,7 @@ around me and their property?
 
 <hr>
 <div id="day2"></div>
-### Week 12 Day 2, Obedience and Disobedience
+### Day 2, Obedience and Disobedience
 
 ### Question: What are the blessings for being obedient and the punishments for disobedient?
 
@@ -101,7 +100,7 @@ around to obey Him?
 
 <hr>
 <div id="day3"></div>
-### Week 12 Day 3, Redeeming what is Lord’s
+### Day 3, Redeeming what is Lord’s
 
 ### Question: How does man redeem from his vow to God?
 
@@ -127,7 +126,7 @@ in breach of my promises?
 
 <hr>
 <div id="day4"></div>
-### Week 12 Day 4, Census and Placement
+### Day 4, Census and Placement
 
 ### Question: How were the census conducted and tribes’ camps arranged?
 
@@ -160,7 +159,7 @@ and now, with God’s salvation, an elite solder of His army?
 
 <hr>
 <div id="day5"></div>
-## Week 12 Day 5, Kingdom of Priests
+## Day 5, Kingdom of Priests
 
 ### Question: How did God make Israel a kingdom of priests?
 
@@ -183,10 +182,15 @@ transformation God has done for my life.
 
 ### Notes and Responses
 
-<hr>
 <div id="day6"></div>
-## Week 12 Day 6, Holy Nation
-
+<table>
+  <tr>
+    <th>
+## Day 6, Holy Nation
+    </th>
+  </tr>
+  <tr><td>
+    
 ### Question: How did God make Israelites the holy nation?
 
 ### Scripture Reading: Numbers 5-6
@@ -211,10 +215,19 @@ being faithful to my spouse?
 ### Prayer
 
 ### Notes and Responses
+ </td>
+ </tr>
+ </table>
 
-<hr>
 <div id="day7"></div>
-## Week 12 Day 7
+<div id="day6"></div>
+<table>
+  <tr>
+    <th>
+## Day 7
+    </th>
+  </tr>
+  <tr><td>
 
 ### Scripture Reading: Psalm 84
 
@@ -223,3 +236,6 @@ being faithful to my spouse?
 ### Prayer
 
 ### Notes and Responses
+</td>
+</tr>
+</table>
