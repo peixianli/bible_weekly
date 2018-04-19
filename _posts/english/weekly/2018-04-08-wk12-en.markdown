@@ -182,14 +182,10 @@ transformation God has done for my life.
 
 ### Notes and Responses
 
+<hr>
+
 <div id="day6"></div>
-<table>
-  <tr>
-    <th>
 ## Day 6, Holy Nation
-    </th>
-  </tr>
-  <tr><td>
     
 ### Question: How did God make Israelites the holy nation?
 
@@ -215,19 +211,10 @@ being faithful to my spouse?
 ### Prayer
 
 ### Notes and Responses
- </td>
- </tr>
- </table>
 
+<hr>
 <div id="day7"></div>
-<div id="day6"></div>
-<table>
-  <tr>
-    <th>
 ## Day 7
-    </th>
-  </tr>
-  <tr><td>
 
 ### Scripture Reading: Psalm 84
 
@@ -236,6 +223,5 @@ being faithful to my spouse?
 ### Prayer
 
 ### Notes and Responses
-</td>
-</tr>
-</table>
+
+<hr>
