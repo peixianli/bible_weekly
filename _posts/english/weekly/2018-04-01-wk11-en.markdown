@@ -141,7 +141,7 @@ weekNum: 11
 ### Notes and Responses
 
 <hr>
-<div id="day6></div>
+<div id="day6"></div>
 
 ## Day 6, The Festivals
 
