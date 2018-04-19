@@ -8,6 +8,7 @@ permalink: "/en/guide/wk12.html"
 weekNum: 12
 ---
 
+
 <div id="top"></div> 
 # Weekly Guide: Week 12   [(中文)](/guide/wk12.html)
 
