@@ -64,7 +64,7 @@ weekNum: 11
 ### Notes and Responses
 
 <hr>
-<div id="day3"></id>
+<div id="day3"></div>
 
 ## Day 3, Holy Behaviors
 
