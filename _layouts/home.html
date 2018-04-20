@@ -13,7 +13,9 @@ title: {{ site.name }}
 
     {% assign today = site.time | date: '%Y-%m-%d'  %}
     
-    {% for post in site.posts limit:16 %}
+    {% assign chnPosts = site.posts | where_exp: "item", "item.language != 'Stanford'" %}
+    
+    {% for post in chnPosts limit:16 %}
       
       {% if post.categories contains "daily" %}
         
@@ -34,7 +36,7 @@ title: {{ site.name }}
 
     {% endfor %}
     
-    <li><a href="/all.html">其它文章</a></li>
+    <li><a href="/all.html">所有文章</a></li>
   </ul>
 
   <hr> 
