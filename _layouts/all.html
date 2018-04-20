@@ -1,15 +1,12 @@
 ---
-
 layout: post
 title: {{ site.name }}
-
 ---
 
 <a href="/">返回主页</a>
 
 <h2>所有文章</h2>
     
-
 {% assign weeklyPosts = site.posts | where: "categories", "weekly" | sort: "date" %}
 {% assign dailyPosts = site.posts | where: "categories", "daily" %}
 {% assign sharingPosts = site.posts | where: "categories", "sharing" %}
