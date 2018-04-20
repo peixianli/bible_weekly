@@ -9,11 +9,11 @@ language: "Chinese"
 <a href="/">返回主页</a>
 
 <h2>所有文章</h2>
-
+    
 {% assign allChinesePosts = site.posts | where_exp: "item", "item.language != 'English'" %}
 {% assign weeklyPosts = allChinesePosts | where: "categories", "weekly" | sort: "date" %}
-{% assign dailyPosts = allChineseposts | where: "categories", "daily" %}
-{% assign sharingPosts = allChieseposts | where: "categories", "sharing" %}
+{% assign dailyPosts = allChinesePosts | where: "categories", "daily" %}
+{% assign sharingPosts = allChiesePosts | where: "categories", "sharing" %}
 
 {% assign bgLink = "https://www.biblegateway.com/passage/?search=" %}
 
