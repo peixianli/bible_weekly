@@ -1,4 +1,4 @@
 ---
 layout: home-en
-permalink: "/en"
+permalink: "/en/home.html"
 ---
