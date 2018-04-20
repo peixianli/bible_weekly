@@ -2,6 +2,7 @@
 
 layout: post
 title: {{ site.name }}
+language: "Chinese"
 
 ---
 
@@ -9,9 +10,10 @@ title: {{ site.name }}
 
 <h2>所有文章</h2>
 
-{% assign weeklyPosts = site.posts | where: "categories", "weekly" | sort: "date" %}
-{% assign dailyPosts = site.posts | where: "categories", "daily" %}
-{% assign sharingPosts = site.posts | where: "categories", "sharing" %}
+{% assign allChinesePosts = site.posts | where_exp: "item", "item.language != 'English'" %}
+{% assign weeklyPosts = allChinesePosts | where: "categories", "weekly" | sort: "date" %}
+{% assign dailyPosts = allChineseposts | where: "categories", "daily" %}
+{% assign sharingPosts = allChieseposts | where: "categories", "sharing" %}
 
 {% assign bgLink = "https://www.biblegateway.com/passage/?search=" %}
 
