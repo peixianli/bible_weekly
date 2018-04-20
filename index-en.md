@@ -1,3 +1,3 @@
 ---
-layout: home-en
+layout: home
 ---
