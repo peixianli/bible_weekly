@@ -2,7 +2,7 @@
 layout: post
 title:  "Weekly Guide ：Week 12"
 date:   2018-04-15
-language: english
+language: English
 categories: weekly
 permalink: "/en/guide/wk12.html"
 weekNum: 12
