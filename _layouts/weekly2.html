@@ -43,6 +43,7 @@ title: {{ site.name }}
 
 {% assign thisWeek = site.posts | where: "weekNum", filter | sort: "date" %}
 {% assign thisWeek = thisWeek | where: "categories", "daily" | sort: "date" %}
+{% assign thisWeek = thisWeek | where_exp: "item", "item.language != 'English'" %}
 
 
 {% assign day = 1 %}
