@@ -23,6 +23,7 @@ title: {{ site.name }}
 {% assign prevDay = "/daily/wk" | append:prevWeekNum | append:"-day" | append:prevDayNum | append:"-daily.html#top" %}
 {% assign nextDay = "/daily/wk" | append:nextWeekNum | append:"-day" | append:nextDayNum | append:"-daily.html#top" %}
 {% assign weekly = "/guide/wk" | append:page.weekNum | append:".html#top" %}
+{% assign enUrl = "/en" | append : page.permalink %}
 
 <iv id="top"></div>
 <table>
@@ -30,6 +31,7 @@ title: {{ site.name }}
   <tr>
     <th><a href="{{ prevDay }}">《上一日</a></th>
     <th><a href="{{ weekly }}">本週</a></th>
+    <th><a href="{{ enUrl }}">English</a></th>
     <th><a href="{{ nextDay }}">下一日》</a></th>
   </tr>
   </thead>
