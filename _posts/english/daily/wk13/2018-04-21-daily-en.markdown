@@ -1,5 +1,5 @@
 ---
-layout: daily2
+layout: daily-en
 title:  "Serve Wholeheartedly"
 date:   2018-04-21
 categories: daily
@@ -12,6 +12,7 @@ youVersionRef1: "NUM.15"
 bibleTitle2: "Psalm 90"
 bibleGatewayRef2: "ps.90"
 youVersionRef2: "PSA.90"
+language: English
 ---
 
 {% assign verse1 = page.bibleTitle1 %}
