@@ -23,10 +23,10 @@ language: English
 {% assign yvV2 = page.youVersionRef2 %}
 
 {% assign bgLink1 = "https://www.biblegateway.com/passage/?search=" | append:bgV1 | append: "&version=NIV" %}
-{% assign yvLink1 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV1 | append: ".NIV" %}
+{% assign yvLink1 = "https://www.bible.com/bible/111/" | append:yvV1 | append: ".NIV" %}
 
 {% assign bgLink2 = "https://www.biblegateway.com/passage/?search=" | append:bgV2 | append: "&version=NIV" %}
-{% assign yvLink2 = "https://www.bible.com/zh-TW/bible/46/" | append:yvV2 | append: ".NIV" %}
+{% assign yvLink2 = "https://www.bible.com/bible/111/" | append:yvV2 | append: ".NIV" %}
 
 [bgLink1]: {{ bgLink1 }}
 [bgLink2]: {{ bgLink2 }}
@@ -68,7 +68,7 @@ my daily life?
 can serve. What does this ordering remind me of?
 
 ### Bible Reading
-[{{ verse2 }}][bgLink1] | [【YouVersion】][yvLink2]
+[{{ verse2 }}][bgLink2] | [【YouVersion】][yvLink2]
 
 ### Prayer
 
