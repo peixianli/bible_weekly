@@ -20,7 +20,7 @@ title: {{ site.name }}
   {% endif %}
   
   {{ page.permalink }} - {{ enUrl }}
-  {% assign enPage = site.pages | where: "page", "page.permalink == enUrl" %}
+  {% assign enPage = site.pages | where: "item", "item.permalink == enUrl" %}
   {% if enPage.size > 0 %}
     中文 | <a href="{{ enUrl }}">English</a>
   {% else %}
