@@ -14,7 +14,7 @@ title: {{ site.name }}
 
 <div id="language" align="right">
   {% if page.permalink %}
-    enUrl={{ '/en' | append: page.permalink }}
+    {% assign enUrl= '/en' | append: page.permalink %}
   {% else %}
     {% assign enRootUrl = site.url | append: "en/" %}
     {% assign enUrl = page.url | replace_first: site.url, enRootUrl %}
