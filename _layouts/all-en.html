@@ -1,0 +1,48 @@
+---
+
+layout: post
+title: {{ site.name }}
+
+---
+
+<a href="/">Back to Home</a>
+
+<h2>All Posts</h2>
+
+{% assign weeklyPosts = site.posts | where: "categories", "weekly" | sort: "date" %}
+{% assign dailyPosts = site.posts | where: "categories", "daily" %}
+{% assign sharingPosts = site.posts | where: "categories", "sharing" %}
+
+{% assign bgLink = "https://www.biblegateway.com/passage/?search=" %}
+
+{% for post in weeklyPosts %}
+
+  {% assign weekNum = post.weekNum %}
+  {% assign thisWeek = dailyPosts | where: "weekNum", weekNum | sort: "date" %}
+  
+  {% if thisWeek.size > 0 %}
+    <details><summary>  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></summary>    
+    <ul>
+        {% assign weekNum = post.weekNum %}
+        {% assign thisWeek = dailyPosts | where: "weekNum", weekNum | sort: "date" %}
+        {% for dailyPost in thisWeek %}
+          <li><a href="{{ site.baseurl }}{{ dailyPost.url }}">{{ dailyPost.title }}</a></li>
+          {% if dailyPost.bibleTitle2.size > 0 %}
+            
+            
+                <a href='{{ bgLink | append:dailyPost.bibleGatewayRef1 | append: "&version=NIV" }}'>
+                  <code>{{ dailyPost.bibleTitle1 }}</code></a>  
+                <a href='{{ bgLink | append:dailyPost.bibleGatewayRef2 | append: "&version=NIV" }}'>
+                  <code>{{ dailyPost.bibleTitle2 }}</code></a>
+              
+          {% endif %}
+        {% endfor %}
+      </ul>
+  </details>
+  
+  {% else %}
+  
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li> 
+  {% endif %}
+  
+{% endfor %}
