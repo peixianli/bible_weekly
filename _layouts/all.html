@@ -10,7 +10,9 @@ title: {{ site.name }}
 <h2>所有文章</h2>
 
 {% assign allPosts = site.posts | where_exp: "item", "item.language != 'English'" %}
-{% assign weeklyPosts = allPots | where: "categories", "weekly" | sort: "date" %}
+{% assign weeklyPosts = allPos
+
+ts | where: "categories", "weekly" | sort: "date" %}
 {% assign dailyPosts = allPosts | where: "categories", "daily" %}
 {% assign sharingPosts = allPosts | where: "categories", "sharing" %}
 
