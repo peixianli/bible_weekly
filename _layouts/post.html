@@ -18,7 +18,7 @@ title: {{ site.name }}
   {% else %}
     {% assign enRootUrl = site.url | append: "en/" %}
     {% assign enUrl = page.url | replace_first: site.url, enRootUrl %}
-    中文 | <a href="{{ enUrl }}">English</a>
+    中文 | <a href="{{ site.url | append: page.url }}">English</a>
   {% endif %}
 </div>
 
