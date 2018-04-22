@@ -19,11 +19,12 @@ title: {{ site.name }}
     {% assign enUrl = page.url | prepend: "/en" %}
   {% endif %}
   
+  {{ page.permalink }} - {{ enUrl }}
   {% assign enPage = site.pages | where: "page", "page.permalink == enUrl" %}
   {% if enPage.size > 0 %}
-  中文 | <a href="{{ enUrl }}">English</a>
+    中文 | <a href="{{ enUrl }}">English</a>
   {% else %}
-  中文 | English
+    中文 | English
   {% endif %}
 </div>
 
