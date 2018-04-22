@@ -33,14 +33,16 @@ language: English
 [yvLink1]: {{ yvLink1 }}
 [yvLink2]: {{ yvLink2 }}
 
-### Question
+Question
+---
 How Levites purified and made themselves ceremonially clean before they serve?
 
-### Bible Reading
+Bible Reading
+---
 [{{ verse1 }}][bgLink1] | [[YouVersion]][yvLink1] 
 
-### Meditation: God's Story 
-
+Meditation: God's Story 
+---
 + In 8:1-4, God commanded Moses to tell Aaron to light up the 7 golden lamps the first time. God
 wanted the area in front of the lampstands to be filled with light.
 
@@ -52,8 +54,8 @@ the Holy of the Holies.
 
 + Verses 9:1-14 records the first Passover after the Israelites came out of Egypt.
 
-### Meditation: My Story 
-
+Meditation: My Story 
+---
 + **Walking with God** – In this passage we see God provided a way to celebrate Passover for those
 who wish to celebrate but unable to follow the regulations because they were unable to keep
 themselves ceremonially clean. However, those who were able to follow the regulations but
@@ -67,9 +69,14 @@ my daily life?
 + **Fidelity** – The Levites must first clean, then atone, and then present their offerings before they
 can serve. What does this ordering remind me of?
 
-### Bible Reading
+Bible Reading
+---
 [{{ verse2 }}][bgLink2] | [【YouVersion】][yvLink2]
 
-### Prayer
+Prayer
+---
 
-### Notes & Responses
+Notes & Responses
+---
+
+<p>
