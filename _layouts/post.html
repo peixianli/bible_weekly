@@ -5,10 +5,16 @@ title: {{ site.name }}
 
 {% if page.language == "English" %}
 {% assign chUrl = page.permalink | replace_first: "/en/", "/" %}
+<div align="left">
+  <a href="/en/">Back to Home</a>
+</div>
 <div id="language" align="right">
 <a href={{ chUrl }}>中文<a> | English
 </div>
 {% else %}
+<div align="left">
+  <a href="/">返回主页</a>
+</div>
 <div id="language" align="right">
   中文 | <a href="{{ '/en' | append: page.permalink }}">English</a>
 </div>
