@@ -16,8 +16,8 @@ title: {{ site.name }}
   {% if page.permalink %}
     {% assign enUrl= '/en' | append: page.permalink %}
   {% else %}
-    {% assign enRootUrl = site.url | append: "en/" %}
-    {% assign enUrl = page.url | append: enRootUrl %}
+    {% assign enRootUrl = site.url | append: "/en" %}
+    {% assign enUrl = page.url | replace_first: site.url, enRootUrl %}
   {% endif %}
   
   {% assign enPage = site.pages | where: "page", "page.url == enUrl" %}
