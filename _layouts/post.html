@@ -13,11 +13,7 @@ title: {{ site.name }}
 {% else %}
 
 <div id="language" align="right">
-  {% if page.permalink %}
-    {% assign enUrl= '/en' | append: page.permalink %}
-  {% else %}
-    {% assign enUrl = page.url | prepend: "/en" %}
-  {% endif %}
+  {% assign enUrl = page.url | prepend: "/en" %}
 
   {% assign enPage = site.pages | where_exp: "item", "item.url == enUrl" %}
   {{ enPage[0].url }}
