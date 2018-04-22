@@ -5,11 +5,9 @@ title: {{ site.name }}
 language: English
 ---
 
-<a href="/">Back to Home</a>
-
 <h2>All Posts</h2>
 
-{% assign allEnPosts = site.posts | where_exp: "item", "item.language != 'English'" %}
+{% assign allEnPosts = site.posts | where_exp: "item", "item.language == 'English'" %}
 {% assign weeklyPosts = allEnPosts| where: "categories", "weekly" | sort: "date" %}
 {% assign dailyPosts = allEnPosts | where: "categories", "daily" %}
 {% assign sharingPosts = allEnPosts | where: "categories", "sharing" %}
