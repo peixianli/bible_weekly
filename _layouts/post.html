@@ -16,7 +16,8 @@ title: {{ site.name }}
   {% if page.permalink %}
     中文 | <a href="{{ '/en' | append: page.permalink }}">English</a>
   {% else %}
-    {% assign enUrl = page.url | replace_first: site.url, site.url | append: "en\" %}
+    {% assign enRootUrl = site.url | append: "en/" %}
+    {% assign enUrl = page.url | replace_first: site.url, enRootUrl %}
     中文 | <a href="{{ enUrl }}">English</a>
   {% endif %}
 </div>
