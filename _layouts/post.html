@@ -3,8 +3,6 @@ layout: default
 title: {{ site.name }}
 ---
 
-{{ page.url }}
-
 {% if page.language == "English" %}
 
 {% assign chUrl = page.url | replace_first: "/en/", "/" %}
@@ -18,8 +16,7 @@ title: {{ site.name }}
   {% if page.permalink %}
     {% assign enUrl= '/en' | append: page.permalink %}
   {% else %}
-    {% assign enRootUrl = site.url | append: "/en" %}
-    {% assign enUrl = page.url | replace_first: site.url, enRootUrl %}
+    {% assign enUrl = page.url | prepend: "/en" %}
   {% endif %}
   
   {% assign enPage = site.pages | where: "page", "page.url == enUrl" %}
