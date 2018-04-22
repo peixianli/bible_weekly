@@ -15,18 +15,18 @@ title: {{ site.name }}
 <div id="language" align="right">
   {% assign enUrl = page.url | prepend: "/en" %}
 
-  {% assign enPage = site.posts | where_exp: "item", "item.url == enUrl" %}
-  {{ enPage.size }}
-  {% if enPage.size > 0 %}
+  {% assign enPost = site.posts | where_exp: "item", "item.url == enUrl" %}
+  {% assign enPage = site.pages | where_exp: "item", "item.url == enUrl" %}
+  {% assign ifExist = enPost.size | plus: enPage.size %}
+  {% if ifExist > 0 %}
     中文 | <a href="{{ enUrl }}">English</a>
   {% else %}
-    中文 | <a href="{{ enUrl }}">English</a>
+    中文 | English
   {% endif %}
 </div>
 
 {% endif %}
 
-  "{{ page.url }}" - "{{ enUrl }}" -"{{ site.posts.size }}" - ""{{ site.pages.size }}"
 {{ content }}
 
 <p></p>
