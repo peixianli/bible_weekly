@@ -14,11 +14,17 @@ title: {{ site.name }}
 
 <div id="language" align="right">
   {% if page.permalink %}
-    中文 | <a href="{{ '/en' | append: page.permalink }}">English</a>
+    enUrl={{ '/en' | append: page.permalink }}
   {% else %}
     {% assign enRootUrl = site.url | append: "en/" %}
     {% assign enUrl = page.url | replace_first: site.url, enRootUrl %}
-    中文 | <a href="{{ site.url | append: page.url }}">English</a>
+  {% endif %}
+  
+  {% assign enPage = site.pages | where: "page", "page.url == enUrl" %}
+  {% if enPage %}
+  中文 | <a href="{{ enUrl }}">English</a>
+  {% else %}
+  中文 | English
   {% endif %}
 </div>
 
