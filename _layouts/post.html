@@ -18,8 +18,7 @@ title: {{ site.name }}
   {% else %}
     {% assign enUrl = page.url | prepend: "/en" %}
   {% endif %}
-  
-  {{ page.url }} - {{ enUrl }}
+
   {% assign enPage = site.pages | where_exp: "item", "item.url == enUrl" %}
   {% if enPage.size > 0 %}
     中文 | <a href="{{ enUrl }}">English</a>
@@ -30,6 +29,7 @@ title: {{ site.name }}
 
 {% endif %}
 
+  {{ page.url }} - {{ enUrl }}
 {{ content }}
 
 <p></p>
