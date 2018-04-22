@@ -13,6 +13,7 @@ language: English
 {% assign filter = page.weekNum %}
 {% assign chUrl = page.permalink | replace_first: "/en/", "/" %}
 
+<p>
 <table>
   <thead>
   <tr>
@@ -38,8 +39,8 @@ language: English
 </table>
 <hr>
 
-<h2>{{ page.title }}
-<p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
+<h2>{{ page.title }}</h2>
+<p>{{ page.date | date: '%B %d, %Y' }}</p>
 
 {{ content }}
 <hr>
