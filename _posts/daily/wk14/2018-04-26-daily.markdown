@@ -9,7 +9,7 @@ dayNum: 4
 bibleTitle1: "民數記 22-24"
 bibleGatewayRef1: "num.22-24"
 youVersionRef1: "NUM.22-24"
-bibleTitle2: "詩篇 96"
+bibleTitle2: "詩篇 95"
 bibleGatewayRef2: "ps.95"
 youVersionRef2: "PSA.95"
 ---
