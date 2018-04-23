@@ -1,6 +1,6 @@
 ---
 layout: daily2
-title:  "第14週 第5天 二次數點"
+title:  "第14週 第5天 從內敗壞"
 date:   2018-04-27
 categories: daily
 permalink: /daily/wk14-day5-daily.html
