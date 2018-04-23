@@ -39,7 +39,7 @@ youVersionRef2: "PSA.97"
 [yvLink1]: {{ yvLink1 }}
 [yvLink2]: {{ yvLink2 }}
 
-### 問題: 會幕立起後以色列如何慶祝和奉獻？
+### 問題: 在第二次數點以色列人的時候,神有怎樣的祝福和保守?
 
 ### 讀經：[{{ verse1 }}【繁體】][bgLink1] 
 
