@@ -1,8 +1,9 @@
 ---
 layout: post
 title: {{ site.name }}
-language: Chinese
+language: English
 ---
+
 <div id="top"></div>
 
 {% assign lastWeek = page.weekNum | minus:"1" %}
@@ -10,28 +11,28 @@ language: Chinese
 {% assign lastLink = "wk" | append:lastWeek | append:".html#top" %}
 {% assign nextLink = "wk" | append:nextWeek | append:".html#top" %}
 {% assign filter = page.weekNum %}
-{% assign enUrl = "/en" | append: page.permalink %}
+{% assign chUrl = page.permalink | replace_first: "/en/", "/" %}
 
 <p>
 <table>
   <thead>
   <tr>
-    <th><a href="{{ lastLink }}">《上週</a></th>
-    <th colspan=2><a href="/">主頁</a></th>
-    <th><a href="{{ nextLink }}">下週》</a></th>
+    <th><a href="{{ lastLink }}">&#171 Prev</a></th>
+    <th colspan=2><a href="/en/">Home</a></th>
+    <th><a href="{{ nextLink }}">Next &#187</a></th>
   </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="#day1">第1天</a></td>
-      <td><a href="#day2">第2天</a></td>
-      <td><a href="#day3">第3天</a></td>
-      <td><a href="#day4">第4天</a></td>
+      <td><a href="#day1">Day 1</a></td>
+      <td><a href="#day2">Day 2</a></td>
+      <td><a href="#day3">Day 3</a></td>
+      <td><a href="#day4">Day 4</a></td>
     </tr>
     <tr>
-      <td><a href="#day5">第5天</a></td>
-      <td><a href="#day6">第6天</a></td>
-      <td><a href="#day7">第7天</a></td>
+      <td><a href="#day5">Day 5</a></td>
+      <td><a href="#day6">Day 6</a></td>
+      <td><a href="#day7">Day 7</a></td>
       <td></td>
     </tr>
   </tbody>
@@ -46,7 +47,7 @@ language: Chinese
 
 {% assign thisWeek = site.posts | where: "weekNum", filter | sort: "date" %}
 {% assign thisWeek = thisWeek | where: "categories", "daily" | sort: "date" %}
-{% assign thisWeek = thisWeek | where_exp: "item", "item.language != 'English'" %}
+{% assign thisWeek = thisWeek | where_exp: "item", "item.language == 'English'" %}
 
 
 {% assign day = 1 %}

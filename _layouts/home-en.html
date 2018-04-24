@@ -1,19 +1,19 @@
 ---
 layout: post
 title: {{ site.name }}
-language: "Chinese"
+language: "English"
 ---
 
 <div id="home">
   
- <h1>最新文章</h1>
+ <h1>Latest Posts</h1>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
    
   <ul class="posts">
 
     {% assign today = site.time | date: '%Y-%m-%d'  %}
     
-    {% assign chnPosts = site.posts | where_exp: "item", "item.language != 'English'" %}
+    {% assign chnPosts = site.posts | where_exp: "item", "item.language == 'English'" %}
     
     {% for post in chnPosts limit:16 %}
       
@@ -36,13 +36,13 @@ language: "Chinese"
 
     {% endfor %}
     
-    <li><a href="/all.html">所有文章</a></li>
+    <li><a href="/en/all.html">All Posts</a></li>
   </ul>
 
   <hr> 
 
   <div id="today"></div>
-  <h1>今日讀經内容</h1>
+  <h1>Today's Reading</h1>
   <h2>{{ todayPost.title }}</h2>
   <p class="meta">{{ todayPost.date | date: '%B %d, %Y' }}</p>
   {{ todayPost.content }}
@@ -58,4 +58,3 @@ language: "Chinese"
   {% endfor %}
 </ul>
 </div>
-

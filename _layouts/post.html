@@ -3,6 +3,38 @@ layout: default
 title: {{ site.name }}
 ---
 
+<style>
+.box {
+    padding: 5px;
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,.16), 1px 2px 2px 1px rgba(0,0,0,.26);
+    margin: 5px 0px 5px 0px;
+}
+</style>
+
+{% if page.language == "English" %}
+
+  {% assign chUrl = page.url | replace_first: "/en/", "/" %}
+  <div id="language" align="right">
+    <a href="{{ chUrl }}">中文</a> | English
+  </div>
+
+{% else %}
+
+<div id="language" align="right">
+  {% assign enUrl = page.url | prepend: "/en" %}
+
+  {% assign enPost = site.posts | where_exp: "item", "item.url == enUrl" %}
+  {% assign enPage = site.pages | where_exp: "item", "item.url == enUrl" %}
+  {% assign ifExist = enPost.size | plus: enPage.size %}
+  {% if ifExist > 0 %}
+    中文 | <a href="{{ enUrl }}">English</a>
+  {% else %}
+    中文 | English
+  {% endif %}
+</div>
+
+{% endif %}
+
 {{ content }}
 
 <p></p>
